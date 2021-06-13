@@ -5,14 +5,11 @@ import { useGetSinglePhoto } from '../hooks/useGetSinglePhoto'
 const renderProp = ({ id }) => {
   const { loading, error, data } = useGetSinglePhoto(id)
   if (error) {
-    return <h2>Internal Server Error</h2>
+    return <p>Internal Server Error</p>
   }
   if (loading) {
-    return <h2>Loading...</h2>
+    return <p>Loading...</p>
   }
-  return data
-}
-export const PhotoCardWithQuery = ({ id }) => {
-  const data = renderProp({ id })
   return <PhotoCard {...data.photo} />
 }
+export const PhotoCardWithQuery = ({ id }) => renderProp({ id })
