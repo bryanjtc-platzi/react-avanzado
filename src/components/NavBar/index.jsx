@@ -7,9 +7,9 @@ const SIZE = '32px'
 export const NavBar = () => {
   return (
     <Nav>
-      <Link exact to='/'><MdHome size={SIZE} /></Link>
-      <Link exact to='/favs'><MdFavoriteBorder size={SIZE} /></Link>
-      <Link exact to='/user'><MdPersonOutline size={SIZE} /></Link>
+      <Link to='/'><MdHome size={SIZE} /></Link>
+      <Link to='/favs'><MdFavoriteBorder size={SIZE} /></Link>
+      <Link to='/user'><MdPersonOutline size={SIZE} /></Link>
     </Nav>
   )
 }

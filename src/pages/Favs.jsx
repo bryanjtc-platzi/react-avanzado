@@ -1,13 +1,10 @@
 import React from 'react'
 import { FavsWithQuery } from '../container/FavsWithQuery'
 import { Layout } from '../components/Layout'
+import { useParams } from 'react-router-dom'
 
 export const Favs = (props) => {
-  const {
-    match: {
-      params: { id }
-    }
-  } = props
+  const { id } = useParams(props)
   return (
     <Layout
       title='Tus favoritos'

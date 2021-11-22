@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { GlobalStyle } from './styles/GlobalStyles'
 import { Logo } from './components/Logo'
 import { NavBar } from './components/NavBar'
@@ -18,18 +18,26 @@ export const App = () => {
       <BrowserRouter>
         <GlobalStyle />
         <Logo />
-        <Switch>
-          <Route exact path='/pet/:id' component={Home} />
-          <Route exact path='/detail/:id' component={Detail} />
-          <Route exact path='/' component={Home} />
-          {!isAuth && <Route exact path='/login' component={NotRegisteredUser} />}
-          {!isAuth && <Redirect exact from='/favs' to='/login' />}
-          {!isAuth && <Redirect exact from='/user' to='/login' />}
-          {isAuth && <Redirect exact from='/login' to='/' />}
-          <Route exact path='/favs' component={Favs} />
-          <Route exact path='/user' component={User} />
-          <Route component={NotFound} />
-        </Switch>
+        <Routes>
+          <Route exact path='/pet/:id' element={<Home />} />
+          <Route exact path='/detail/:id' element={<Detail />} />
+          <Route exact path='/' element={<Home />} />
+          {!isAuth && (
+            <Route exact path='/login' element={<NotRegisteredUser />} />
+          )}
+          {!isAuth && (
+            <Route exact path='/favs' element={<Navigate to='/login' />} />
+          )}
+          {!isAuth && (
+            <Route exact path='/user' element={<Navigate to='/login' />} />
+          )}
+          {isAuth && (
+            <Route exact path='/login' element={<Navigate to='/' />} />
+          )}
+          <Route exact path='/favs' element={<Favs />} />
+          <Route exact path='/user' element={<User />} />
+          <Route element={NotFound} />
+        </Routes>
         <NavBar />
       </BrowserRouter>
     </>
