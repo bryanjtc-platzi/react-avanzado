@@ -4,7 +4,7 @@
   "description": "**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev",
   "main": "index.js",
   "scripts": {
-    "vercel-build": "npm run build",
+    "preinstall": "npx npm-force-resolutions",
     "test": "cypress open",
     "build": "webpack --mode=production",
     "lint": "standard",
@@ -35,6 +35,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.1",
+    "json-schema": "^0.4.0",
     "prettier": "^2.4.1",
     "prettier-config-standard": "^4.0.0",
     "prop-styles": "^2.0.0",
@@ -68,5 +69,8 @@
     "extends": [
       "./node_modules/standard/eslintrc.json"
     ]
+  },
+  "resolutions": {
+    "json-schema": "^0.4.0"
   }
 }
