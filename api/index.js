@@ -1,25 +1,29 @@
-const express = require('express')
-const cors = require('cors')
-const { ApolloServer } = require('apollo-server-express')
-const { resolvers, typeDefs } = require('./schema')
-const jwt = require('express-jwt')
+import express from 'express'
+import cors from 'cors'
+import { ApolloServer } from 'apollo-server-express'
+import jwt from 'express-jwt'
+import { resolvers, typeDefs } from './schema.js'
+import { readFile } from 'fs/promises'
+const categories = JSON.parse(
+  await readFile(new URL('./db.json', import.meta.url))
+)
 
 // this is not secure! this is for dev purposes
 process.env.JWT_SECRET = process.env.JWT_SECRET || 'somereallylongsecretkey'
 
 const PORT = process.env.PORT || 3500
 const app = express()
-const { categories } = require('./db.json')
 
 app.use(cors())
 
 // auth middleware
 const auth = jwt({
   secret: process.env.JWT_SECRET,
-  credentialsRequired: false
+  credentialsRequired: false,
+  algorithms: ['HS256']
 })
 
-require('./adapter')
+import './adapter.js'
 
 const server = new ApolloServer({
   introspection: true, // do this only for dev purposes
@@ -42,6 +46,7 @@ const errorHandler = (err, req, res, next) => {
   res.status(status).json(err)
 }
 app.use(errorHandler)
+await server.start()
 server.applyMiddleware({ app, path: '/graphql' })
 
 app.get('/categories', function (req, res) {
@@ -54,4 +59,4 @@ if (!process.env.NOW_REGION) {
   })
 }
 
-module.exports = app
+export default app

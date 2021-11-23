@@ -1,12 +1,10 @@
-const low = require("lowdb");
-const FileSync = require("lowdb/adapters/FileSync");
-const Memory = require('lowdb/adapters/Memory')
-
-const json = require('./db.json')
+import { Low, JSONFileSync, Memory } from 'lowdb'
+import { readFile } from 'fs/promises'
+const json = JSON.parse(await readFile(new URL('./db.json', import.meta.url)))
 const isLocal = !process.env.NOW_REGION
-const type = isLocal ? new FileSync('./db.json') : new Memory
+const type = isLocal ? new JSONFileSync('./db.json') : new Memory()
 
-const db = low(type)
-db.defaults(json).write()
+const db = new Low(type)
+db.write(json)
 
-module.exports = db
+export default db
