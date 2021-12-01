@@ -48,7 +48,7 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "dependencies": {
-    "@apollo/client": "^3.5.4",
+    "@apollo/client": "^3.5.5",
     "graphql": "^16.0.1",
     "html-webpack-plugin": "^5.5.0",
     "intersection-observer": "^0.12.0",
