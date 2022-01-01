@@ -36,7 +36,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.2.0",
     "json-schema": "^0.4.0",
-    "prettier": "^2.5.0",
+    "prettier": "^2.5.1",
     "prettier-config-standard": "^4.0.0",
     "prop-styles": "^2.0.0",
     "standard": "^16.0.4",
