@@ -4,7 +4,6 @@
   "description": "**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "test": "cypress open",
     "build": "webpack --mode=production",
     "lint": "standard",
@@ -69,8 +68,5 @@
     "extends": [
       "./node_modules/standard/eslintrc.json"
     ]
-  },
-  "resolutions": {
-    "json-schema": "0.4.0"
   }
 }
