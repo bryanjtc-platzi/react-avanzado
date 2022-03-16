@@ -19,7 +19,7 @@ specifiers:
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
   json-schema: 0.4.0
-  prettier: 2.5.1
+  prettier: 2.6.0
   prettier-config-standard: 5.0.0
   prop-styles: 2.0.0
   react: ^17.0.2
@@ -61,12 +61,12 @@ devDependencies:
   eslint-config-standard: 16.0.3_62afac7c550ff808b6158c3b0a521944
   eslint-plugin-import: 2.25.4
   eslint-plugin-node: 11.1.0
-  eslint-plugin-prettier: 4.0.0_cb05065b7a8cf84ecf278011c7e6d45f
+  eslint-plugin-prettier: 4.0.0_abddd5e412da582fb6fdac8f1ecbbd6d
   eslint-plugin-promise: 6.0.0
   firebase-tools: 10.3.0
   json-schema: 0.4.0
-  prettier: 2.5.1
-  prettier-config-standard: 5.0.0_prettier@2.5.1
+  prettier: 2.6.0
+  prettier-config-standard: 5.0.0_prettier@2.6.0
   prop-styles: 2.0.0
   standard: 16.0.4
   vercel: 24.0.0
@@ -4297,8 +4297,8 @@ packages:
     dependencies:
       eslint-config-prettier: 8.5.0
       eslint-config-standard: 16.0.3_62afac7c550ff808b6158c3b0a521944
-      eslint-plugin-prettier: 4.0.0_cb05065b7a8cf84ecf278011c7e6d45f
-      prettier-config-standard: 5.0.0_prettier@2.5.1
+      eslint-plugin-prettier: 4.0.0_abddd5e412da582fb6fdac8f1ecbbd6d
+      prettier-config-standard: 5.0.0_prettier@2.6.0
     dev: true
 
   /eslint-config-prettier/8.5.0:
@@ -4455,7 +4455,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.0.0_cb05065b7a8cf84ecf278011c7e6d45f:
+  /eslint-plugin-prettier/4.0.0_abddd5e412da582fb6fdac8f1ecbbd6d:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -4467,7 +4467,7 @@ packages:
         optional: true
     dependencies:
       eslint-config-prettier: 8.5.0
-      prettier: 2.5.1
+      prettier: 2.6.0
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -7717,12 +7717,12 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier-config-standard/5.0.0_prettier@2.5.1:
+  /prettier-config-standard/5.0.0_prettier@2.6.0:
     resolution: {integrity: sha512-QK252QwCxlsak8Zx+rPKZU31UdbRcu9iUk9X1ONYtLSO221OgvV9TlKoTf6iPDZtvF3vE2mkgzFIEgSUcGELSQ==}
     peerDependencies:
       prettier: ^2.4.0
     dependencies:
-      prettier: 2.5.1
+      prettier: 2.6.0
     dev: true
 
   /prettier-linter-helpers/1.0.0:
@@ -7732,8 +7732,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.5.1:
-    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+  /prettier/2.6.0:
+    resolution: {integrity: sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
