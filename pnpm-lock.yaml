@@ -26,7 +26,7 @@ specifiers:
   react-dom: ^18.0.0
   react-helmet: ^6.1.0
   react-icons: ^4.3.1
-  react-is: ^17.0.2
+  react-is: ^18.0.0
   react-router-dom: ^6.2.2
   standard: 16.0.4
   styled-components: ^5.3.3
@@ -46,9 +46,9 @@ dependencies:
   react-dom: 18.0.0_react@18.0.0
   react-helmet: 6.1.0_react@18.0.0
   react-icons: 4.3.1_react@18.0.0
-  react-is: 17.0.2
+  react-is: 18.0.0
   react-router-dom: 6.2.2_react-dom@18.0.0+react@18.0.0
-  styled-components: 5.3.3_c9171e2f422cc3276fc2bebfa7678144
+  styled-components: 5.3.3_1a79be909b93ec9b98501cf963be33c8
 
 devDependencies:
   '@babel/core': 7.17.8
@@ -2899,7 +2899,7 @@ packages:
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
       picomatch: 2.3.1
-      styled-components: 5.3.3_c9171e2f422cc3276fc2bebfa7678144
+      styled-components: 5.3.3_1a79be909b93ec9b98501cf963be33c8
     dev: false
 
   /babel-plugin-syntax-jsx/6.18.0:
@@ -7983,8 +7983,8 @@ packages:
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  /react-is/17.0.2:
-    resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
+  /react-is/18.0.0:
+    resolution: {integrity: sha512-yUcBYdBBbo3QiPsgYDcfQcIkGZHfxOaoE6HLSnr1sPzMhdyxusbfKOSUbSd/ocGi32dxcj366PsTj+5oggeKKw==}
     dev: false
 
   /react-router-dom/6.2.2_react-dom@18.0.0+react@18.0.0:
@@ -8933,7 +8933,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components/5.3.3_c9171e2f422cc3276fc2bebfa7678144:
+  /styled-components/5.3.3_1a79be909b93ec9b98501cf963be33c8:
     resolution: {integrity: sha512-++4iHwBM7ZN+x6DtPPWkCI4vdtwumQ+inA/DdAsqYd4SVgUKJie5vXyzotA00ttcFdQkCng7zc6grwlfIfw+lw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -8951,7 +8951,7 @@ packages:
       hoist-non-react-statics: 3.3.2
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
-      react-is: 17.0.2
+      react-is: 18.0.0
       shallowequal: 1.1.0
       supports-color: 5.5.0
     dev: false
