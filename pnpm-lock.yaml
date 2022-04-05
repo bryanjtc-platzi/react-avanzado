@@ -10,7 +10,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   eslint-config-prettier-standard: 4.0.1
   eslint-config-standard: 16.0.3
-  eslint-plugin-import: 2.25.4
+  eslint-plugin-import: 2.26.0
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0
   eslint-plugin-promise: 6.0.0
@@ -58,8 +58,8 @@ devDependencies:
   cypress: 9.5.3
   eslint-config-prettier: 8.5.0
   eslint-config-prettier-standard: 4.0.1_0613aceecf1031226e8d000e237a257e
-  eslint-config-standard: 16.0.3_62afac7c550ff808b6158c3b0a521944
-  eslint-plugin-import: 2.25.4
+  eslint-config-standard: 16.0.3_9f62d7c03e0cc29f35a5940f39f679c0
+  eslint-plugin-import: 2.26.0
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0_ad206096bdee02cd87fd9bdfe684ae30
   eslint-plugin-promise: 6.0.0
@@ -4230,7 +4230,7 @@ packages:
       prettier-config-standard: '>=1.0.0'
     dependencies:
       eslint-config-prettier: 8.5.0
-      eslint-config-standard: 16.0.3_62afac7c550ff808b6158c3b0a521944
+      eslint-config-standard: 16.0.3_9f62d7c03e0cc29f35a5940f39f679c0
       eslint-plugin-prettier: 4.0.0_ad206096bdee02cd87fd9bdfe684ae30
       prettier-config-standard: 5.0.0_prettier@2.6.2
     dev: true
@@ -4266,7 +4266,7 @@ packages:
       eslint-plugin-promise: 5.1.1_eslint@7.18.0
     dev: true
 
-  /eslint-config-standard/16.0.3_62afac7c550ff808b6158c3b0a521944:
+  /eslint-config-standard/16.0.3_9f62d7c03e0cc29f35a5940f39f679c0:
     resolution: {integrity: sha512-x4fmJL5hGqNJKGHSjnLdgA6U6h1YW/G2dW9fA+cyVur4SK6lyue8+UgNKWlZtUDTXvgKDD/Oa3GQjmB5kjtVvg==}
     peerDependencies:
       eslint: ^7.12.1
@@ -4274,7 +4274,7 @@ packages:
       eslint-plugin-node: ^11.1.0
       eslint-plugin-promise: ^4.2.1 || ^5.0.0
     dependencies:
-      eslint-plugin-import: 2.25.4
+      eslint-plugin-import: 2.26.0
       eslint-plugin-node: 11.1.0
       eslint-plugin-promise: 6.0.0
     dev: true
@@ -4336,11 +4336,11 @@ packages:
       pkg-up: 2.0.0
       read-pkg-up: 3.0.0
       resolve: 1.22.0
-      tsconfig-paths: 3.13.0
+      tsconfig-paths: 3.14.1
     dev: true
 
-  /eslint-plugin-import/2.25.4:
-    resolution: {integrity: sha512-/KJBASVFxpu0xg1kIBn9AUa8hQVnszpwgE7Ld0lKAlx7Ie87yzEzCgSkekt+le/YVhiaosO4Y14GDAOc41nfxA==}
+  /eslint-plugin-import/2.26.0:
+    resolution: {integrity: sha512-hYfi3FXaM8WPLf4S1cikh/r4IxnO6zrhZbEGz2b660EJRbuxgpDS5gkCuYgGWg2xxh2rBuIr4Pvhve/7c31koA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
@@ -4357,7 +4357,7 @@ packages:
       minimatch: 3.1.2
       object.values: 1.1.5
       resolve: 1.22.0
-      tsconfig-paths: 3.13.0
+      tsconfig-paths: 3.14.1
     dev: true
 
   /eslint-plugin-node/11.1.0:
@@ -9093,8 +9093,8 @@ packages:
       yn: 3.1.1
     dev: true
 
-  /tsconfig-paths/3.13.0:
-    resolution: {integrity: sha512-nWuffZppoaYK0vQ1SQmkSsQzJoHA4s6uzdb2waRpD806x9yfq153AdVsWz4je2qZcW+pENrMQXbGQ3sMCkXuhw==}
+  /tsconfig-paths/3.14.1:
+    resolution: {integrity: sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ==}
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.1
