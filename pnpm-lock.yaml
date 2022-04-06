@@ -33,7 +33,7 @@ specifiers:
   vercel: 24.0.1
   webpack: 5.71.0
   webpack-cli: 4.9.2
-  webpack-dev-server: 4.8.0
+  webpack-dev-server: 4.8.1
   webpack-pwa-manifest: 4.3.0
   workbox-webpack-plugin: 6.5.2
 
@@ -71,8 +71,8 @@ devDependencies:
   standard: 16.0.4
   vercel: 24.0.1
   webpack: 5.71.0_webpack-cli@4.9.2
-  webpack-cli: 4.9.2_000e2907c0ee89f1b118eb7764dd4013
-  webpack-dev-server: 4.8.0_webpack-cli@4.9.2+webpack@5.71.0
+  webpack-cli: 4.9.2_474871b808d47a92b0b35c8948477ac3
+  webpack-dev-server: 4.8.1_webpack-cli@4.9.2+webpack@5.71.0
   webpack-pwa-manifest: 4.3.0
   workbox-webpack-plugin: 6.5.2_webpack@5.71.0
 
@@ -2377,7 +2377,7 @@ packages:
       webpack-cli: 4.x.x
     dependencies:
       webpack: 5.71.0_webpack-cli@4.9.2
-      webpack-cli: 4.9.2_000e2907c0ee89f1b118eb7764dd4013
+      webpack-cli: 4.9.2_474871b808d47a92b0b35c8948477ac3
     dev: true
 
   /@webpack-cli/info/1.4.1_webpack-cli@4.9.2:
@@ -2386,10 +2386,10 @@ packages:
       webpack-cli: 4.x.x
     dependencies:
       envinfo: 7.8.1
-      webpack-cli: 4.9.2_000e2907c0ee89f1b118eb7764dd4013
+      webpack-cli: 4.9.2_474871b808d47a92b0b35c8948477ac3
     dev: true
 
-  /@webpack-cli/serve/1.6.1_42285ddc3efaa94a684c2c184c68d6d4:
+  /@webpack-cli/serve/1.6.1_8b27d5839a2bdf89ba2338e4c89fea10:
     resolution: {integrity: sha512-gNGTiTrjEVQ0OcVnzsRSqTxaBSr+dmTfm+qJsCDluky8uhdLWep7Gcr62QsAKHTMxjCS/8nEITsmFAhfIx+QSw==}
     peerDependencies:
       webpack-cli: 4.x.x
@@ -2398,8 +2398,8 @@ packages:
       webpack-dev-server:
         optional: true
     dependencies:
-      webpack-cli: 4.9.2_000e2907c0ee89f1b118eb7764dd4013
-      webpack-dev-server: 4.8.0_webpack-cli@4.9.2+webpack@5.71.0
+      webpack-cli: 4.9.2_474871b808d47a92b0b35c8948477ac3
+      webpack-dev-server: 4.8.1_webpack-cli@4.9.2+webpack@5.71.0
     dev: true
 
   /@wry/context/0.6.1:
@@ -9481,7 +9481,7 @@ packages:
     resolution: {integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==}
     dev: true
 
-  /webpack-cli/4.9.2_000e2907c0ee89f1b118eb7764dd4013:
+  /webpack-cli/4.9.2_474871b808d47a92b0b35c8948477ac3:
     resolution: {integrity: sha512-m3/AACnBBzK/kMTcxWHcZFPrw/eQuY4Df1TxvIWfWM2x7mRqBQCqKEd96oCUa9jkapLBaFfRce33eGDb4Pr7YQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -9504,7 +9504,7 @@ packages:
       '@discoveryjs/json-ext': 0.5.6
       '@webpack-cli/configtest': 1.1.1_webpack-cli@4.9.2+webpack@5.71.0
       '@webpack-cli/info': 1.4.1_webpack-cli@4.9.2
-      '@webpack-cli/serve': 1.6.1_42285ddc3efaa94a684c2c184c68d6d4
+      '@webpack-cli/serve': 1.6.1_8b27d5839a2bdf89ba2338e4c89fea10
       colorette: 2.0.16
       commander: 7.2.0
       execa: 5.1.1
@@ -9513,7 +9513,7 @@ packages:
       interpret: 2.2.0
       rechoir: 0.7.1
       webpack: 5.71.0_webpack-cli@4.9.2
-      webpack-dev-server: 4.8.0_webpack-cli@4.9.2+webpack@5.71.0
+      webpack-dev-server: 4.8.1_webpack-cli@4.9.2+webpack@5.71.0
       webpack-merge: 5.8.0
     dev: true
 
@@ -9531,8 +9531,8 @@ packages:
       webpack: 5.71.0_webpack-cli@4.9.2
     dev: true
 
-  /webpack-dev-server/4.8.0_webpack-cli@4.9.2+webpack@5.71.0:
-    resolution: {integrity: sha512-yZ7OWVP1nOtv8s10R/ZCsH6zf6QKkNusMRBE9DsQbOknRzKaFYYrbwVPCXp8ynUOTt3RlD9szM8H0pUlrJ6wcw==}
+  /webpack-dev-server/4.8.1_webpack-cli@4.9.2+webpack@5.71.0:
+    resolution: {integrity: sha512-dwld70gkgNJa33czmcj/PlKY/nOy/BimbrgZRaR9vDATBQAYgLzggR0nxDtPLJiLrMgZwbE6RRfJ5vnBBasTyg==}
     engines: {node: '>= 12.13.0'}
     hasBin: true
     peerDependencies:
@@ -9570,7 +9570,7 @@ packages:
       sockjs: 0.3.24
       spdy: 4.0.2
       webpack: 5.71.0_webpack-cli@4.9.2
-      webpack-cli: 4.9.2_000e2907c0ee89f1b118eb7764dd4013
+      webpack-cli: 4.9.2_474871b808d47a92b0b35c8948477ac3
       webpack-dev-middleware: 5.3.1_webpack@5.71.0
       ws: 8.5.0
     transitivePeerDependencies:
@@ -9642,7 +9642,7 @@ packages:
       tapable: 2.2.1
       terser-webpack-plugin: 5.3.1_webpack@5.71.0
       watchpack: 2.3.1
-      webpack-cli: 4.9.2_000e2907c0ee89f1b118eb7764dd4013
+      webpack-cli: 4.9.2_474871b808d47a92b0b35c8948477ac3
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - '@swc/core'
