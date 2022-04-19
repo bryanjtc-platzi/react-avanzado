@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0
   eslint-plugin-promise: 6.0.0
-  firebase-tools: 10.6.0
+  firebase-tools: 10.7.0
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0_ad206096bdee02cd87fd9bdfe684ae30
   eslint-plugin-promise: 6.0.0
-  firebase-tools: 10.6.0
+  firebase-tools: 10.7.0
   json-schema: 0.4.0
   prettier: 2.6.2
   prettier-config-standard: 5.0.0_prettier@2.6.2
@@ -4876,8 +4876,14 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /firebase-tools/10.6.0:
-    resolution: {integrity: sha512-bJvamfCfvgoPixnJQwKdju88u+fWC0fvbQHRD11IPKFH6G9zd41nlAzqP/b9Sh9YjA/MSDpVA7nUnlnipxB01g==}
+  /firebase-frameworks/0.3.0:
+    resolution: {integrity: sha512-Zxtx5WsD8ZZdItIeDjjpM+JgaIWDdwBujmLYLKf2Ou6onyRsd8bNRrnVsqrnq4S3FN9TcNYliXdwMu7AwYdW7Q==}
+    dependencies:
+      tslib: 2.3.1
+    dev: true
+
+  /firebase-tools/10.7.0:
+    resolution: {integrity: sha512-yCrYNvfL3IbAGgsRsYsO/cqqdabEn4ujnEq1vEgUGvPadStvUrU51/pdLAAI4cFQ4HbKCULKiVXqz52JZOJT2A==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
@@ -4902,6 +4908,7 @@ packages:
       exit-code: 1.0.2
       express: 4.17.3
       filesize: 6.4.0
+      firebase-frameworks: 0.3.0
       fs-extra: 5.0.0
       glob: 7.2.0
       google-auth-library: 7.14.0
@@ -9112,6 +9119,7 @@ packages:
 
   /tweetsodium/0.0.5:
     resolution: {integrity: sha512-T3aXZtx7KqQbutTtBfn+P5By3HdBuB1eCoGviIrRJV2sXeToxv2X2cv5RvYqgG26PSnN5m3fYixds22Gkfd11w==}
+    deprecated: 'tweetsodium is deprecated and unmaintained. Please consider using libsodium.js, maintained by the same author as libsodium: https://github.com/jedisct1/libsodium.js'
     dependencies:
       blakejs: 1.1.1
       tweetnacl: 1.0.3
