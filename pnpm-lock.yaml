@@ -9,7 +9,7 @@ specifiers:
   cypress: 9.5.4
   eslint-config-prettier: 8.5.0
   eslint-config-prettier-standard: 4.0.1
-  eslint-config-standard: 16.0.3
+  eslint-config-standard: 17.0.0
   eslint-plugin-import: 2.26.0
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0
@@ -57,8 +57,8 @@ devDependencies:
   babel-loader: 8.2.5_acba72ea4bf9d339cdfcd8f55cdb7006
   cypress: 9.5.4
   eslint-config-prettier: 8.5.0
-  eslint-config-prettier-standard: 4.0.1_0613aceecf1031226e8d000e237a257e
-  eslint-config-standard: 16.0.3_9f62d7c03e0cc29f35a5940f39f679c0
+  eslint-config-prettier-standard: 4.0.1_d80d5088e06ca94bb62b3a17b3d2af07
+  eslint-config-standard: 17.0.0_daa05e6ab470a5326c17a230d16970b5
   eslint-plugin-import: 2.26.0
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0_ad206096bdee02cd87fd9bdfe684ae30
@@ -4214,7 +4214,7 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier-standard/4.0.1_0613aceecf1031226e8d000e237a257e:
+  /eslint-config-prettier-standard/4.0.1_d80d5088e06ca94bb62b3a17b3d2af07:
     resolution: {integrity: sha512-l5IsZo387QArxPcRl6qcsQnc0hf66rrV5p3RvMDcHL9FGXRJ/s3/ZCES343gMGgyYN+XTJpBnwJHCnZegAMmfw==}
     peerDependencies:
       eslint-config-prettier: '>=5.0.0'
@@ -4223,7 +4223,7 @@ packages:
       prettier-config-standard: '>=1.0.0'
     dependencies:
       eslint-config-prettier: 8.5.0
-      eslint-config-standard: 16.0.3_9f62d7c03e0cc29f35a5940f39f679c0
+      eslint-config-standard: 17.0.0_daa05e6ab470a5326c17a230d16970b5
       eslint-plugin-prettier: 4.0.0_ad206096bdee02cd87fd9bdfe684ae30
       prettier-config-standard: 5.0.0_prettier@2.6.2
     dev: true
@@ -4259,16 +4259,15 @@ packages:
       eslint-plugin-promise: 5.1.1_eslint@7.18.0
     dev: true
 
-  /eslint-config-standard/16.0.3_9f62d7c03e0cc29f35a5940f39f679c0:
-    resolution: {integrity: sha512-x4fmJL5hGqNJKGHSjnLdgA6U6h1YW/G2dW9fA+cyVur4SK6lyue8+UgNKWlZtUDTXvgKDD/Oa3GQjmB5kjtVvg==}
+  /eslint-config-standard/17.0.0_daa05e6ab470a5326c17a230d16970b5:
+    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
     peerDependencies:
-      eslint: ^7.12.1
-      eslint-plugin-import: ^2.22.1
-      eslint-plugin-node: ^11.1.0
-      eslint-plugin-promise: ^4.2.1 || ^5.0.0
+      eslint: ^8.0.1
+      eslint-plugin-import: ^2.25.2
+      eslint-plugin-n: ^15.0.0
+      eslint-plugin-promise: ^6.0.0
     dependencies:
       eslint-plugin-import: 2.26.0
-      eslint-plugin-node: 11.1.0
       eslint-plugin-promise: 6.0.0
     dev: true
 
