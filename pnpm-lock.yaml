@@ -6,7 +6,7 @@ specifiers:
   '@babel/preset-env': 7.17.10
   '@babel/preset-react': 7.16.7
   babel-loader: 8.2.5
-  cypress: 9.6.0
+  cypress: 9.6.1
   eslint-config-prettier: 8.5.0
   eslint-config-prettier-standard: 4.0.1
   eslint-config-standard: 17.0.0
@@ -55,7 +55,7 @@ devDependencies:
   '@babel/preset-env': 7.17.10_@babel+core@7.17.10
   '@babel/preset-react': 7.16.7_@babel+core@7.17.10
   babel-loader: 8.2.5_887a5110397f957d9e06dd05497793db
-  cypress: 9.6.0
+  cypress: 9.6.1
   eslint-config-prettier: 8.5.0
   eslint-config-prettier-standard: 4.0.1_d80d5088e06ca94bb62b3a17b3d2af07
   eslint-config-standard: 17.0.0_daa05e6ab470a5326c17a230d16970b5
@@ -3712,8 +3712,8 @@ packages:
     resolution: {integrity: sha512-5AIdl8l6n3iYQYxan5djB5eKDa+vBnhfWZtRpJTcrETWfVLYN0WSj3L9RwvgYt+psoO77juUr8TG8qpfGZifVQ==}
     dev: true
 
-  /cypress/9.6.0:
-    resolution: {integrity: sha512-nNwt9eBQmSENamwa8LxvggXksfyzpyYaQ7lNBLgks3XZ6dPE/6BCQFBzeAyAPt/bNXfH3tKPkAyhiAZPYkWoEg==}
+  /cypress/9.6.1:
+    resolution: {integrity: sha512-ECzmV7pJSkk+NuAhEw6C3D+RIRATkSb2VAHXDY6qGZbca/F9mv5pPsj2LO6Ty6oIFVBTrwCyL9agl28MtJMe2g==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
