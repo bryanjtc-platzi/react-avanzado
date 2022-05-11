@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0
   eslint-plugin-promise: 6.0.0
-  firebase-tools: 10.8.0
+  firebase-tools: 10.9.0
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0_ad206096bdee02cd87fd9bdfe684ae30
   eslint-plugin-promise: 6.0.0
-  firebase-tools: 10.8.0
+  firebase-tools: 10.9.0
   json-schema: 0.4.0
   prettier: 2.6.2
   prettier-config-standard: 5.0.0_prettier@2.6.2
@@ -1924,7 +1924,7 @@ packages:
     resolution: {integrity: sha512-8KG5RD0GVP4ydEzRn/I4BNDuxDtqVbOdm8675T49OIG/NGhaK0pjPX7ZcDlvKYbA+ulvVK3ztfcF4uBdOxuJbQ==}
     dependencies:
       '@gar/promisify': 1.1.3
-      semver: 7.3.5
+      semver: 7.3.7
     dev: true
     optional: true
 
@@ -3084,7 +3084,7 @@ packages:
   /builtins/4.1.0:
     resolution: {integrity: sha512-1bPRZQtmKaO6h7qV1YHXNtr6nCK28k0Zo95KM4dXfILcZZwoHJBN1m3lfLv9LPkcOZlrSr+J1bzMaZFO98Yq0w==}
     dependencies:
-      semver: 7.3.5
+      semver: 7.3.7
     dev: true
 
   /bytes/3.0.0:
@@ -4992,14 +4992,17 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /firebase-frameworks/0.3.0:
-    resolution: {integrity: sha512-Zxtx5WsD8ZZdItIeDjjpM+JgaIWDdwBujmLYLKf2Ou6onyRsd8bNRrnVsqrnq4S3FN9TcNYliXdwMu7AwYdW7Q==}
+  /firebase-frameworks/0.4.0:
+    resolution: {integrity: sha512-Seu+1dKNo3AacMrOHb1V0F41DfCKiM6gW4Go/34z78WtuBkzKNSUOUI+w8XCH7A96QGZRbNbGwt33BiSXEb2xQ==}
     dependencies:
+      fs-extra: 10.1.0
+      jsonc-parser: 3.0.0
+      semver: 7.3.7
       tslib: 2.3.1
     dev: true
 
-  /firebase-tools/10.8.0:
-    resolution: {integrity: sha512-A4yp73VYh9iKEBH59mBbC9BgQdIiYsr3MP28g1sD2bmGtU50NU9o7Ygdnmf5zmWvGhpIGtTue1wLjYOwvi/9+g==}
+  /firebase-tools/10.9.0:
+    resolution: {integrity: sha512-2EB8vNVHVYwfrFmKGKg/yPoOiTeofYdFSwiidEJzGpoMHTc2STNXl9n2+u4rA0LHQLl16nyG0A/oQm2UAy4Rjg==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
@@ -5024,7 +5027,7 @@ packages:
       exit-code: 1.0.2
       express: 4.17.3
       filesize: 6.4.0
-      firebase-frameworks: 0.3.0
+      firebase-frameworks: 0.4.0
       fs-extra: 5.0.0
       glob: 7.2.0
       google-auth-library: 7.14.0
@@ -5122,6 +5125,15 @@ packages:
 
   /fs-constants/1.0.0:
     resolution: {integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==}
+    dev: true
+
+  /fs-extra/10.1.0:
+    resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      graceful-fs: 4.2.9
+      jsonfile: 6.1.0
+      universalify: 2.0.0
     dev: true
 
   /fs-extra/5.0.0:
@@ -6347,6 +6359,10 @@ packages:
     hasBin: true
     dev: true
 
+  /jsonc-parser/3.0.0:
+    resolution: {integrity: sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==}
+    dev: true
+
   /jsonfile/4.0.0:
     resolution: {integrity: sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=}
     optionalDependencies:
@@ -7085,7 +7101,7 @@ packages:
       nopt: 5.0.0
       npmlog: 6.0.1
       rimraf: 3.0.2
-      semver: 7.3.5
+      semver: 7.3.7
       tar: 6.1.11
       which: 2.0.2
     transitivePeerDependencies:
@@ -8327,6 +8343,14 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
+  /semver/7.3.7:
+    resolution: {integrity: sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: true
+
   /send/0.17.2:
     resolution: {integrity: sha512-UJYB6wFSJE3G00nEivR5rgWp8c2xXvJ3OPWPhmuteU0IKj8nKbG3DrjiOmLwpnHGYWAVwA69zmTm++YG0Hmwww==}
     engines: {node: '>= 0.8.0'}
@@ -9331,7 +9355,7 @@ packages:
       is-yarn-global: 0.3.0
       latest-version: 5.1.0
       pupa: 2.1.1
-      semver: 7.3.5
+      semver: 7.3.7
       semver-diff: 3.1.1
       xdg-basedir: 4.0.0
     dev: true
