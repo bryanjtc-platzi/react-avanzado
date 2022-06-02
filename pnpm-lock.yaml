@@ -6,7 +6,7 @@ specifiers:
   '@babel/preset-env': 7.18.2
   '@babel/preset-react': 7.17.12
   babel-loader: 8.2.5
-  cypress: 10.0.0
+  cypress: 10.0.1
   eslint-config-prettier: 8.5.0
   eslint-config-prettier-standard: 4.0.1
   eslint-config-standard: 17.0.0
@@ -55,7 +55,7 @@ devDependencies:
   '@babel/preset-env': 7.18.2_@babel+core@7.18.2
   '@babel/preset-react': 7.17.12_@babel+core@7.18.2
   babel-loader: 8.2.5_1e6208c184491b2ebbab8f4236ed439d
-  cypress: 10.0.0
+  cypress: 10.0.1
   eslint-config-prettier: 8.5.0
   eslint-config-prettier-standard: 4.0.1_d80d5088e06ca94bb62b3a17b3d2af07
   eslint-config-standard: 17.0.0_daa05e6ab470a5326c17a230d16970b5
@@ -3878,8 +3878,8 @@ packages:
     resolution: {integrity: sha512-5AIdl8l6n3iYQYxan5djB5eKDa+vBnhfWZtRpJTcrETWfVLYN0WSj3L9RwvgYt+psoO77juUr8TG8qpfGZifVQ==}
     dev: true
 
-  /cypress/10.0.0:
-    resolution: {integrity: sha512-OdND7TaYZcDD+UYBlL6VCEMZcsclliG9TY/T6zLzeGtwOf5dwi+41nU9XAZzSbByoqturb8HS4G/+XD8PthN5w==}
+  /cypress/10.0.1:
+    resolution: {integrity: sha512-04vefCc6LrrgBS7Qhqn+9lqXTneLYZZwOokBaCJToI9DHu7/ywhywYNUg/Qy4xWOxlKvbvnELGCa7HZbSgeLfQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -7885,11 +7885,11 @@ packages:
     dev: true
 
   /pend/1.2.0:
-    resolution: {integrity: sha1-elfrVQpng/kRUzH89GY9XI4AelA=}
+    resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
     dev: true
 
   /performance-now/2.1.0:
-    resolution: {integrity: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=}
+    resolution: {integrity: sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==}
     dev: true
 
   /phin/2.9.3:
@@ -7904,7 +7904,7 @@ packages:
     engines: {node: '>=8.6'}
 
   /pify/2.3.0:
-    resolution: {integrity: sha1-7RQaasBDqEnqWISY59yosVMw6Qw=}
+    resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -8105,7 +8105,7 @@ packages:
     dev: true
 
   /proxy-from-env/1.0.0:
-    resolution: {integrity: sha1-M8UDmPcOp+uW0h97gXYwpVeRx+4=}
+    resolution: {integrity: sha512-F2JHgJQ1iqwnHDcQjVBsq3n/uoaFL+iPW/eAeL7kVxy/2RrWaN4WroKjjvbsoRtv0ftelNyC01bjRhn/bhcf4A==}
     dev: true
 
   /psl/1.8.0:
@@ -8120,7 +8120,7 @@ packages:
     dev: true
 
   /punycode/1.4.1:
-    resolution: {integrity: sha1-wNWmOycYgArY4esPpSachN1BhF4=}
+    resolution: {integrity: sha512-jmYNElW7yvO7TV33CjSmvSiE2yco3bV2czu/OzDKdMNVZQWfxCblURLhf+47syQRBntjfLdd/H0egrzIG+oaFQ==}
     dev: true
 
   /punycode/2.1.1:
