@@ -12,7 +12,7 @@ specifiers:
   eslint-config-standard: 17.0.0
   eslint-plugin-import: 2.26.0
   eslint-plugin-node: 11.1.0
-  eslint-plugin-prettier: 4.0.0
+  eslint-plugin-prettier: 4.1.0
   eslint-plugin-promise: 6.0.0
   firebase-tools: 11.1.0
   graphql: ^16.3.0
@@ -57,11 +57,11 @@ devDependencies:
   babel-loader: 8.2.5_993ce5acb94884ef30374affded05051
   cypress: 10.2.0
   eslint-config-prettier: 8.5.0
-  eslint-config-prettier-standard: 4.0.1_d80d5088e06ca94bb62b3a17b3d2af07
+  eslint-config-prettier-standard: 4.0.1_9131bf9bfbf6cc9538d65f6340bafbe4
   eslint-config-standard: 17.0.0_daa05e6ab470a5326c17a230d16970b5
   eslint-plugin-import: 2.26.0
   eslint-plugin-node: 11.1.0
-  eslint-plugin-prettier: 4.0.0_ea1eeaadaf203da9735bd1eacb520c93
+  eslint-plugin-prettier: 4.1.0_ea1eeaadaf203da9735bd1eacb520c93
   eslint-plugin-promise: 6.0.0
   firebase-tools: 11.1.0
   json-schema: 0.4.0
@@ -4466,7 +4466,7 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier-standard/4.0.1_d80d5088e06ca94bb62b3a17b3d2af07:
+  /eslint-config-prettier-standard/4.0.1_9131bf9bfbf6cc9538d65f6340bafbe4:
     resolution: {integrity: sha512-l5IsZo387QArxPcRl6qcsQnc0hf66rrV5p3RvMDcHL9FGXRJ/s3/ZCES343gMGgyYN+XTJpBnwJHCnZegAMmfw==}
     peerDependencies:
       eslint-config-prettier: '>=5.0.0'
@@ -4476,7 +4476,7 @@ packages:
     dependencies:
       eslint-config-prettier: 8.5.0
       eslint-config-standard: 17.0.0_daa05e6ab470a5326c17a230d16970b5
-      eslint-plugin-prettier: 4.0.0_ea1eeaadaf203da9735bd1eacb520c93
+      eslint-plugin-prettier: 4.1.0_ea1eeaadaf203da9735bd1eacb520c93
       prettier-config-standard: 5.0.0_prettier@2.7.1
     dev: true
 
@@ -4668,9 +4668,9 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.0.0_ea1eeaadaf203da9735bd1eacb520c93:
-    resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
-    engines: {node: '>=6.0.0'}
+  /eslint-plugin-prettier/4.1.0_ea1eeaadaf203da9735bd1eacb520c93:
+    resolution: {integrity: sha512-A3AXIEfTnq3D5qDFjWJdQ9c4BLhw/TqhSR+6+SVaoPJBAWciFEuJiNQh275OnjRrAi7yssZzuWBRw66VG2g6UA==}
+    engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: '>=7.28.0'
       eslint-config-prettier: '*'
