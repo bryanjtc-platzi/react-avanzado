@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-promise: 6.0.0
-  firebase-tools: 11.1.0
+  firebase-tools: 11.2.0
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_ea1eeaadaf203da9735bd1eacb520c93
   eslint-plugin-promise: 6.0.0
-  firebase-tools: 11.1.0
+  firebase-tools: 11.2.0
   json-schema: 0.4.0
   prettier: 2.7.1
   prettier-config-standard: 5.0.0_prettier@2.7.1
@@ -5395,8 +5395,8 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /firebase-tools/11.1.0:
-    resolution: {integrity: sha512-6nBFOiuxsKl8AbPnsiBck7HT682cHzMuoRrXzajuNWjwTYvh4oW25BF/iLGP7MAGzI4Xuo2NDXwjDLg6HIR78Q==}
+  /firebase-tools/11.2.0:
+    resolution: {integrity: sha512-+kTppjR6GrMFyKZB12KvJcG6456p/wrMEETSavwy4Hpj8/LGRxpDTPRvDvQNKuibMa/iViC/hYQFs4eXhNtgFg==}
     engines: {node: ^14.18.0 || >=16.4.0}
     hasBin: true
     dependencies:
@@ -5565,7 +5565,7 @@ packages:
     resolution: {integrity: sha512-cybjIfiiE+pTWicSCLFHSrXZ6EilF30oh91FDP9S2B051prEa7QWfrVTQm10/dDpswBDXZugPa1Ogu8Yh+HV0Q==}
 
   /fs.realpath/1.0.0:
-    resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=}
+    resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
 
   /fsevents/2.3.2:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
@@ -6271,7 +6271,7 @@ packages:
       resolve-cwd: 3.0.0
 
   /imurmurhash/0.1.4:
-    resolution: {integrity: sha1-khi5srkoojixPcT7a21XbyMUU+o=}
+    resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
     engines: {node: '>=0.8.19'}
     dev: true
 
@@ -6286,7 +6286,7 @@ packages:
     optional: true
 
   /inflight/1.0.6:
-    resolution: {integrity: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=}
+    resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -7959,7 +7959,7 @@ packages:
     engines: {node: '>=8'}
 
   /path-is-absolute/1.0.1:
-    resolution: {integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=}
+    resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==}
     engines: {node: '>=0.10.0'}
 
   /path-key/2.0.1:
