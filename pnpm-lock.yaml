@@ -30,7 +30,7 @@ specifiers:
   react-router-dom: ^6.2.2
   standard: 17.0.0
   styled-components: ^5.3.3
-  vercel: 28.0.0
+  vercel: 28.0.1
   webpack: 5.74.0
   webpack-cli: 4.10.0
   webpack-dev-server: 4.10.0
@@ -69,7 +69,7 @@ devDependencies:
   prettier-config-standard: 5.0.0_prettier@2.7.1
   prop-styles: 2.0.0
   standard: 17.0.0
-  vercel: 28.0.0
+  vercel: 28.0.1
   webpack: 5.74.0_webpack-cli@4.10.0
   webpack-cli: 4.10.0_8f72ac236ae0ac26b7fe6f2d6bd3dcdf
   webpack-dev-server: 4.10.0_ed7de2690da194b35567e1e94055cb2c
@@ -2410,8 +2410,8 @@ packages:
       ajv: 6.12.6
     dev: true
 
-  /@vercel/ruby/1.3.25:
-    resolution: {integrity: sha512-sHu5f8X8TGHSTTvwE0lrnFFU5waTwwM5oOUqBInwxhxoTXDS3Xym961oCHREfRkVaebA+8gFXnmrzMPQki+jZg==}
+  /@vercel/ruby/1.3.26:
+    resolution: {integrity: sha512-qQNwyntHZTWSLaN1QpXYJVZkthiYkhV0bI4lvAGcHWBdNaa0gTcPnvrs0LXnnQF4qiI5qK4lMNfWCm6ihoRZeA==}
     dev: true
 
   /@vercel/static-build/1.0.18:
@@ -9724,8 +9724,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  /vercel/28.0.0:
-    resolution: {integrity: sha512-J1DDIF/OgN6QIQL95wVYHY4n5QYjhFEY/0zrocO6IPV8rp1Nbdjsmr54T+Hzhi/D6p0BxIFJbMhmAGCn4lJxkQ==}
+  /vercel/28.0.1:
+    resolution: {integrity: sha512-JdMinf/Y5bPkZwd3OBIbvXM4DO3u/hnGTt68XMyuTxd3BBZPXfTSi7ig+2As4h0c3dZ8GA22KqCDBAPrqsOLAA==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
@@ -9738,7 +9738,7 @@ packages:
       '@vercel/python': 3.1.9
       '@vercel/redwood': 1.0.18
       '@vercel/remix': 1.0.19
-      '@vercel/ruby': 1.3.25
+      '@vercel/ruby': 1.3.26
       '@vercel/static-build': 1.0.18
       update-notifier: 5.1.0
     transitivePeerDependencies:
