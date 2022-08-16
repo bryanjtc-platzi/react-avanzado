@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-promise: 6.0.0
-  firebase-tools: 11.6.0
+  firebase-tools: 11.7.0
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_ea1eeaadaf203da9735bd1eacb520c93
   eslint-plugin-promise: 6.0.0
-  firebase-tools: 11.6.0
+  firebase-tools: 11.7.0
   json-schema: 0.4.0
   prettier: 2.7.1
   prettier-config-standard: 5.0.0_prettier@2.7.1
@@ -5313,8 +5313,8 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /firebase-tools/11.6.0:
-    resolution: {integrity: sha512-uVZN2I+xsNdPnxNZ4PCSyGNKQJ7YzDZFcXD4Xpxa9ecIqbeK7/a80fQZ4PnoXmOjlDJrJIDtCFGq3UqGYUL33Q==}
+  /firebase-tools/11.7.0:
+    resolution: {integrity: sha512-im3oCXpxcUWqflVbBTi8bEtRHdpQqyuwsninGqvLCzY87wwkI6IR3pT4gv/xUAkA4xU4xmQQDnLlQ5XoxA4OlA==}
     engines: {node: ^14.18.0 || >=16.4.0}
     hasBin: true
     dependencies:
@@ -5342,6 +5342,7 @@ packages:
       fs-extra: 10.1.0
       glob: 7.2.0
       google-auth-library: 7.14.0
+      googleapis: 105.0.0
       inquirer: 8.2.0
       js-yaml: 3.14.1
       jsonwebtoken: 8.5.1
@@ -5591,6 +5592,19 @@ packages:
       - supports-color
     dev: true
 
+  /gaxios/5.0.1:
+    resolution: {integrity: sha512-keK47BGKHyyOVQxgcUaSaFvr3ehZYAlvhvpHXy0YB2itzZef+GqZR8TBsfVRWghdwlKrYsn+8L8i3eblF7Oviw==}
+    engines: {node: '>=12'}
+    dependencies:
+      extend: 3.0.2
+      https-proxy-agent: 5.0.0
+      is-stream: 2.0.1
+      node-fetch: 2.6.7
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: true
+
   /gcp-metadata/4.3.1:
     resolution: {integrity: sha512-x850LS5N7V1F3UcV7PoupzGsyD6iVwTVvsh3tbXfkctZnBnjW5yu5z1/3k3SehF7TyoTIe78rJs02GMMy+LF+A==}
     engines: {node: '>=10'}
@@ -5606,7 +5620,7 @@ packages:
     resolution: {integrity: sha512-gfwuX3yA3nNsHSWUL4KG90UulNiq922Ukj3wLTrcnX33BB7PwB1o0ubR8KVvXu9nJH+P5w1j2SQSNNqto+H0DA==}
     engines: {node: '>=12'}
     dependencies:
-      gaxios: 5.0.0
+      gaxios: 5.0.1
       json-bigint: 1.0.0
     transitivePeerDependencies:
       - encoding
@@ -5834,6 +5848,32 @@ packages:
     hasBin: true
     dependencies:
       node-forge: 1.2.1
+    dev: true
+
+  /googleapis-common/6.0.1:
+    resolution: {integrity: sha512-COe4g+58FoIkLUe4ljlCl6ytgSqPYIyCrT9kEp+VDL3Ca5NAOqExZ13whJUZklmSgxS3isEbTBt5c7SgD0kfMA==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      extend: 3.0.2
+      gaxios: 5.0.1
+      google-auth-library: 8.0.2
+      qs: 6.9.7
+      url-template: 2.0.8
+      uuid: 8.3.2
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: true
+
+  /googleapis/105.0.0:
+    resolution: {integrity: sha512-wH/jU/6QpqwsjTKj4vfKZz97ne7xT7BBbKwzQEwnbsG8iH9Seyw19P+AuLJcxNNrmgblwLqfr3LORg4Okat1BQ==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      google-auth-library: 8.0.2
+      googleapis-common: 6.0.1
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
     dev: true
 
   /got/9.6.0:
@@ -9683,6 +9723,10 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       prepend-http: 2.0.0
+    dev: true
+
+  /url-template/2.0.8:
+    resolution: {integrity: sha512-XdVKMF4SJ0nP/O7XIPB0JwAEuT9lDIYnNsK8yGVe43y0AWoKeJNdv3ZNWh7ksJ6KqQFjOO6ox/VEitLnaVNufw==}
     dev: true
 
   /utif/2.0.1:
