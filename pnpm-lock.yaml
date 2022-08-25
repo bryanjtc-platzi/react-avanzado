@@ -13,7 +13,7 @@ specifiers:
   eslint-plugin-import: 2.26.0
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
-  eslint-plugin-promise: 6.0.0
+  eslint-plugin-promise: 6.0.1
   firebase-tools: 11.8.0
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
@@ -58,11 +58,11 @@ devDependencies:
   cypress: 10.6.0
   eslint-config-prettier: 8.5.0
   eslint-config-prettier-standard: 4.0.1_377dc6bbd6537057766379853dbf4a77
-  eslint-config-standard: 17.0.0_daa05e6ab470a5326c17a230d16970b5
+  eslint-config-standard: 17.0.0_ce56a864830891e66afda131a48db4d9
   eslint-plugin-import: 2.26.0
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_ea1eeaadaf203da9735bd1eacb520c93
-  eslint-plugin-promise: 6.0.0
+  eslint-plugin-promise: 6.0.1
   firebase-tools: 11.8.0
   json-schema: 0.4.0
   prettier: 2.7.1
@@ -4599,7 +4599,7 @@ packages:
       prettier-config-standard: '>=1.0.0'
     dependencies:
       eslint-config-prettier: 8.5.0
-      eslint-config-standard: 17.0.0_daa05e6ab470a5326c17a230d16970b5
+      eslint-config-standard: 17.0.0_ce56a864830891e66afda131a48db4d9
       eslint-plugin-prettier: 4.2.1_ea1eeaadaf203da9735bd1eacb520c93
       prettier-config-standard: 5.0.0_prettier@2.7.1
     dev: true
@@ -4621,19 +4621,7 @@ packages:
       eslint-plugin-react: 7.29.4_eslint@8.13.0
     dev: true
 
-  /eslint-config-standard/17.0.0_daa05e6ab470a5326c17a230d16970b5:
-    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
-    peerDependencies:
-      eslint: ^8.0.1
-      eslint-plugin-import: ^2.25.2
-      eslint-plugin-n: ^15.0.0
-      eslint-plugin-promise: ^6.0.0
-    dependencies:
-      eslint-plugin-import: 2.26.0
-      eslint-plugin-promise: 6.0.0
-    dev: true
-
-  /eslint-config-standard/17.0.0_dc19839e011c6dcd66ff2ec979bc96a1:
+  /eslint-config-standard/17.0.0_4d4102c7b2b526170ae4e9f6b40d80a7:
     resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
     peerDependencies:
       eslint: ^8.0.1
@@ -4644,7 +4632,19 @@ packages:
       eslint: 8.13.0
       eslint-plugin-import: 2.26.0_eslint@8.13.0
       eslint-plugin-n: 15.1.0_eslint@8.13.0
-      eslint-plugin-promise: 6.0.0_eslint@8.13.0
+      eslint-plugin-promise: 6.0.1_eslint@8.13.0
+    dev: true
+
+  /eslint-config-standard/17.0.0_ce56a864830891e66afda131a48db4d9:
+    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
+    peerDependencies:
+      eslint: ^8.0.1
+      eslint-plugin-import: ^2.25.2
+      eslint-plugin-n: ^15.0.0
+      eslint-plugin-promise: ^6.0.0
+    dependencies:
+      eslint-plugin-import: 2.26.0
+      eslint-plugin-promise: 6.0.1
     dev: true
 
   /eslint-import-resolver-node/0.3.6:
@@ -4808,15 +4808,15 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-promise/6.0.0:
-    resolution: {integrity: sha512-7GPezalm5Bfi/E22PnQxDWH2iW9GTvAlUNTztemeHb6c1BniSyoeTrM87JkC0wYdi6aQrZX9p2qEiAno8aTcbw==}
+  /eslint-plugin-promise/6.0.1:
+    resolution: {integrity: sha512-uM4Tgo5u3UWQiroOyDEsYcVMOo7re3zmno0IZmB5auxoaQNIceAbXEkSt8RNrKtaYehARHG06pYK6K1JhtP0Zw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
     dev: true
 
-  /eslint-plugin-promise/6.0.0_eslint@8.13.0:
-    resolution: {integrity: sha512-7GPezalm5Bfi/E22PnQxDWH2iW9GTvAlUNTztemeHb6c1BniSyoeTrM87JkC0wYdi6aQrZX9p2qEiAno8aTcbw==}
+  /eslint-plugin-promise/6.0.1_eslint@8.13.0:
+    resolution: {integrity: sha512-uM4Tgo5u3UWQiroOyDEsYcVMOo7re3zmno0IZmB5auxoaQNIceAbXEkSt8RNrKtaYehARHG06pYK6K1JhtP0Zw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
@@ -9005,11 +9005,11 @@ packages:
     hasBin: true
     dependencies:
       eslint: 8.13.0
-      eslint-config-standard: 17.0.0_dc19839e011c6dcd66ff2ec979bc96a1
+      eslint-config-standard: 17.0.0_4d4102c7b2b526170ae4e9f6b40d80a7
       eslint-config-standard-jsx: 11.0.0_fd8f4eaf63e14ac8b74ee706a2500c0c
       eslint-plugin-import: 2.26.0_eslint@8.13.0
       eslint-plugin-n: 15.1.0_eslint@8.13.0
-      eslint-plugin-promise: 6.0.0_eslint@8.13.0
+      eslint-plugin-promise: 6.0.1_eslint@8.13.0
       eslint-plugin-react: 7.29.4_eslint@8.13.0
       standard-engine: 15.0.0
     transitivePeerDependencies:
