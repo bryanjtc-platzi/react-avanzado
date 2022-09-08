@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-promise: 6.0.1
-  firebase-tools: 11.8.0
+  firebase-tools: 11.8.1
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_ea1eeaadaf203da9735bd1eacb520c93
   eslint-plugin-promise: 6.0.1
-  firebase-tools: 11.8.0
+  firebase-tools: 11.8.1
   json-schema: 0.4.0
   prettier: 2.7.1
   prettier-config-standard: 5.0.0_prettier@2.7.1
@@ -2951,8 +2951,8 @@ packages:
     resolution: {integrity: sha512-l6ToIJIotphWahxxHyzK9bnLR6kM4jJIIgLShZeqLY7iboHoGkdgFl7W2/Ivi4SkMJYGKqW8vSuk0uKUj6qsSw==}
     dev: true
 
-  /async/2.6.3:
-    resolution: {integrity: sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==}
+  /async/2.6.4:
+    resolution: {integrity: sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==}
     dependencies:
       lodash: 4.17.21
     dev: true
@@ -5352,8 +5352,8 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /firebase-tools/11.8.0:
-    resolution: {integrity: sha512-xUKG2WygVfZbM/cRCzvmzRf5m05h3UBprZl4lMMNhVSY5Dw4o77nPTJqDAsB9N6bMvphixSN8q4mu0NhtJGx/Q==}
+  /firebase-tools/11.8.1:
+    resolution: {integrity: sha512-qboaCh4zO8U23U8cQtZ4iM7pF/PzKZWhg63nqjgG/fHe+3Blq1btqXMJDLlKOsRje4DJeB+pqXcJEW1PclwKAw==}
     engines: {node: ^14.18.0 || >=16.4.0}
     hasBin: true
     dependencies:
@@ -5397,7 +5397,7 @@ packages:
       node-fetch: 2.6.7
       open: 6.4.0
       ora: 5.4.1
-      portfinder: 1.0.28
+      portfinder: 1.0.32
       progress: 2.0.3
       proxy-agent: 5.0.0
       request: 2.88.2
@@ -5540,7 +5540,7 @@ packages:
     dependencies:
       graceful-fs: 4.2.9
       inherits: 2.0.4
-      mkdirp: 0.5.5
+      mkdirp: 0.5.6
       rimraf: 2.7.1
     dev: true
 
@@ -7383,6 +7383,13 @@ packages:
       minimist: 1.2.6
     dev: true
 
+  /mkdirp/0.5.6:
+    resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.6
+    dev: true
+
   /mkdirp/1.0.4:
     resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
     engines: {node: '>=10'}
@@ -7995,13 +8002,13 @@ packages:
     engines: {node: '>=4.0.0'}
     dev: true
 
-  /portfinder/1.0.28:
-    resolution: {integrity: sha512-Se+2isanIcEqf2XMHjyUKskczxbPH7dQnlMjXX6+dybayyHvAf/TCgyMRlzf/B6QDhAEFOGes0pzRo3by4AbMA==}
+  /portfinder/1.0.32:
+    resolution: {integrity: sha512-on2ZJVVDXRADWE6jnQaX0ioEylzgBpQk8r55NE4wjXW1ZxO+BgDlY6DXwj20i0V8eB4SenDQ00WEaxfiIQPcxg==}
     engines: {node: '>= 0.12.0'}
     dependencies:
-      async: 2.6.3
+      async: 2.6.4
       debug: 3.2.7
-      mkdirp: 0.5.5
+      mkdirp: 0.5.6
     transitivePeerDependencies:
       - supports-color
     dev: true
