@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-promise: 6.0.1
-  firebase-tools: 11.12.0
+  firebase-tools: 11.13.0
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_ea1eeaadaf203da9735bd1eacb520c93
   eslint-plugin-promise: 6.0.1
-  firebase-tools: 11.12.0
+  firebase-tools: 11.13.0
   json-schema: 0.4.0
   prettier: 2.7.1
   prettier-config-standard: 5.0.0_prettier@2.7.1
@@ -4799,6 +4799,7 @@ packages:
       esbuild-windows-64: 0.15.10
       esbuild-windows-arm64: 0.15.10
     dev: true
+    optional: true
 
   /escalade/3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
@@ -5561,8 +5562,8 @@ packages:
       locate-path: 5.0.0
       path-exists: 4.0.0
 
-  /firebase-tools/11.12.0:
-    resolution: {integrity: sha512-qfqQxb8gQ2uAeWhzMlVj+LhlXib85ET7PAh7V5PVkC34oufVnGccehLaZGqreQcovnFiF6ctIM/AScnEecoclg==}
+  /firebase-tools/11.13.0:
+    resolution: {integrity: sha512-8p3AAG0DtDl/FF7Zaq5C5y2UoyWGvzVOgPDBjI+ZIPqBXdrAUHhQ/tVN+5J0IbtV+YXTyCmxIKf7kcIenzl2Xg==}
     engines: {node: ^14.18.0 || >=16.4.0}
     hasBin: true
     dependencies:
@@ -5582,7 +5583,6 @@ packages:
       cross-env: 5.2.1
       cross-spawn: 7.0.3
       csv-parse: 5.0.4
-      esbuild: 0.15.10
       exegesis: 4.1.0
       exegesis-express: 4.0.0
       express: 4.17.3
@@ -5627,6 +5627,8 @@ packages:
       winston: 3.6.0
       winston-transport: 4.5.0
       ws: 7.5.7
+    optionalDependencies:
+      esbuild: 0.15.10
     transitivePeerDependencies:
       - bluebird
       - bufferutil
