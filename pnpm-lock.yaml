@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-promise: 6.0.1
-  firebase-tools: 11.14.1
+  firebase-tools: 11.14.2
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_ea1eeaadaf203da9735bd1eacb520c93
   eslint-plugin-promise: 6.0.1
-  firebase-tools: 11.14.1
+  firebase-tools: 11.14.2
   json-schema: 0.4.0
   prettier: 2.7.1
   prettier-config-standard: 5.0.0_prettier@2.7.1
@@ -5528,8 +5528,8 @@ packages:
       locate-path: 5.0.0
       path-exists: 4.0.0
 
-  /firebase-tools/11.14.1:
-    resolution: {integrity: sha512-y/oAxjULKzkfvgM873SqxB7HGlpF8GhRNCir6uhE+bmxI918tVqtmQP2+Uj+VT15vLz/RoZlseuZYZsW3PtAYw==}
+  /firebase-tools/11.14.2:
+    resolution: {integrity: sha512-ahduDgvR9q3zVMl42k/H2II8Mo4uzgDqp6Wp2wtygpB3diGhmjDCpsIJHYBZoDXOHKgXXXHYpK2W56gUUPPI9w==}
     engines: {node: ^14.18.0 || >=16.4.0}
     hasBin: true
     dependencies:
@@ -5647,7 +5647,7 @@ packages:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
-      mime-types: 2.1.34
+      mime-types: 2.1.35
     dev: true
 
   /forwarded/0.2.0:
@@ -8657,7 +8657,7 @@ packages:
       is-typedarray: 1.0.0
       isstream: 0.1.2
       json-stringify-safe: 5.0.1
-      mime-types: 2.1.34
+      mime-types: 2.1.35
       oauth-sign: 0.9.0
       performance-now: 2.1.0
       qs: 6.5.3
