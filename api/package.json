@@ -20,7 +20,7 @@
     "express-jwt": "^7.0.0",
     "graphql": "^16.0.1",
     "jsonwebtoken": "8.5.1",
-    "lowdb": "^4.0.0",
+    "lowdb": "^5.0.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
