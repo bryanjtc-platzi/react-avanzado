@@ -30,7 +30,7 @@ specifiers:
   react-router-dom: ^6.2.2
   standard: 17.0.0
   styled-components: ^5.3.3
-  vercel: 28.7.2
+  vercel: 28.8.0
   webpack: 5.75.0
   webpack-cli: 5.0.1
   webpack-dev-server: 4.11.1
@@ -69,7 +69,7 @@ devDependencies:
   prettier-config-standard: 5.0.0_prettier@2.8.0
   prop-styles: 2.0.0
   standard: 17.0.0
-  vercel: 28.7.2
+  vercel: 28.8.0
   webpack: 5.75.0_webpack-cli@5.0.1
   webpack-cli: 5.0.1_a03037929752522b8c382995bf0923ba
   webpack-dev-server: 4.11.1_webpack-cli@5.0.1+webpack@5.75.0
@@ -2393,8 +2393,8 @@ packages:
     resolution: {integrity: sha512-dgcLXug0IqUeRsywf0G8IrhUFcgw+GYj+EZB4JneglKSofFBh3Xy/t7KfBUxLlKnoq6kyGYJvTmAVB1YBt11qw==}
     dev: true
 
-  /@vercel/node/2.7.1:
-    resolution: {integrity: sha512-TaNZKXvZvKzwz+ALf4/od64wniOpSwaYcGzQXs9onkzonOdO4C1biGBaIHpnqdlAxbaFRMvqQQbqjfJHJavPhQ==}
+  /@vercel/node/2.8.0:
+    resolution: {integrity: sha512-Vji7/j1boSGNsPS3Zw5Av21dAQMUcuci9l9OI2JhJ7kG1NGT3+8k83Dy46ZI1Q9+5m+ibUxVVzfsS7Fr6oYVYA==}
     dependencies:
       '@edge-runtime/vm': 2.0.0
       '@types/node': 14.18.33
@@ -9978,8 +9978,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  /vercel/28.7.2:
-    resolution: {integrity: sha512-ak5T5N84se8uA59RoodTBxTnRZ8hml717fjEyKDdnQAaweejZyYcruv8nE/Qny+51gAshDnBtP1cdtN4U/eq3Q==}
+  /vercel/28.8.0:
+    resolution: {integrity: sha512-M9jz58juBJlJKXBBXR2QLxKufFFlOFvJpNKImEL3EOHmyAWkrI8EvdeK34qHsAorI27BDWQw/r0oPpHZCL4qvA==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
@@ -9988,7 +9988,7 @@ packages:
       '@vercel/go': 2.2.19
       '@vercel/hydrogen': 0.0.33
       '@vercel/next': 3.3.2
-      '@vercel/node': 2.7.1
+      '@vercel/node': 2.8.0
       '@vercel/python': 3.1.29
       '@vercel/redwood': 1.0.39
       '@vercel/remix': 1.1.1
