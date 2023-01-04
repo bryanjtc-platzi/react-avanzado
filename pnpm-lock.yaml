@@ -5,7 +5,7 @@ specifiers:
   '@babel/core': 7.20.12
   '@babel/preset-env': 7.20.2
   '@babel/preset-react': 7.18.6
-  babel-loader: 9.1.0
+  babel-loader: 9.1.2
   cypress: 12.3.0
   eslint-config-prettier: 8.6.0
   eslint-config-prettier-standard: 4.0.1
@@ -54,7 +54,7 @@ devDependencies:
   '@babel/core': 7.20.12
   '@babel/preset-env': 7.20.2_@babel+core@7.20.12
   '@babel/preset-react': 7.18.6_@babel+core@7.20.12
-  babel-loader: 9.1.0_583de9feeb19b942099805a8401bb653
+  babel-loader: 9.1.2_583de9feeb19b942099805a8401bb653
   cypress: 12.3.0
   eslint-config-prettier: 8.6.0
   eslint-config-prettier-standard: 4.0.1_819fec5efc48784d17fe485926748970
@@ -2983,8 +2983,8 @@ packages:
     resolution: {integrity: sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==}
     dev: true
 
-  /babel-loader/9.1.0_583de9feeb19b942099805a8401bb653:
-    resolution: {integrity: sha512-Antt61KJPinUMwHwIIz9T5zfMgevnfZkEVWYDWlG888fgdvRRGD0JTuf/fFozQnfT+uq64sk1bmdHDy/mOEWnA==}
+  /babel-loader/9.1.2_583de9feeb19b942099805a8401bb653:
+    resolution: {integrity: sha512-mN14niXW43tddohGl8HPu5yfQq70iUThvFL/4QzESA7GcZoC0eVOhvWdQ8+3UlSjaDE9MVtsW9mxDY07W7VpVA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       '@babel/core': ^7.12.0
