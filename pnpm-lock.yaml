@@ -19,7 +19,7 @@ specifiers:
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
   json-schema: 0.4.0
-  prettier: 2.8.1
+  prettier: 2.8.2
   prettier-config-standard: 5.0.0
   prop-styles: 2.0.0
   react: ^18.0.0
@@ -61,12 +61,12 @@ devDependencies:
   eslint-config-standard: 17.0.0_be414ab2f69a8de9fd6c93d903cda394
   eslint-plugin-import: 2.26.0
   eslint-plugin-node: 11.1.0
-  eslint-plugin-prettier: 4.2.1_1bae92ea40827346d6da7a955de3afa3
+  eslint-plugin-prettier: 4.2.1_1ec8016613133d7eb41ce8ea874af35f
   eslint-plugin-promise: 6.1.1
   firebase-tools: 11.20.0
   json-schema: 0.4.0
-  prettier: 2.8.1
-  prettier-config-standard: 5.0.0_prettier@2.8.1
+  prettier: 2.8.2
+  prettier-config-standard: 5.0.0_prettier@2.8.2
   prop-styles: 2.0.0
   standard: 17.0.0
   vercel: 28.10.3
@@ -2864,7 +2864,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       glob: 7.2.0
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
       lazystream: 1.0.1
       lodash.defaults: 4.2.0
       lodash.difference: 4.5.0
@@ -3693,7 +3693,7 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       dot-prop: 5.3.0
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
       make-dir: 3.1.0
       unique-string: 2.0.0
       write-file-atomic: 3.0.3
@@ -4623,8 +4623,8 @@ packages:
     dependencies:
       eslint-config-prettier: 8.6.0
       eslint-config-standard: 17.0.0_be414ab2f69a8de9fd6c93d903cda394
-      eslint-plugin-prettier: 4.2.1_1bae92ea40827346d6da7a955de3afa3
-      prettier-config-standard: 5.0.0_prettier@2.8.1
+      eslint-plugin-prettier: 4.2.1_1ec8016613133d7eb41ce8ea874af35f
+      prettier-config-standard: 5.0.0_prettier@2.8.2
     dev: true
 
   /eslint-config-prettier/8.6.0:
@@ -4815,7 +4815,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_1bae92ea40827346d6da7a955de3afa3:
+  /eslint-plugin-prettier/4.2.1_1ec8016613133d7eb41ce8ea874af35f:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -4827,7 +4827,7 @@ packages:
         optional: true
     dependencies:
       eslint-config-prettier: 8.6.0
-      prettier: 2.8.1
+      prettier: 2.8.2
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -5472,7 +5472,7 @@ packages:
     resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
     engines: {node: '>=12'}
     dependencies:
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
       jsonfile: 6.1.0
       universalify: 2.0.0
     dev: true
@@ -5481,7 +5481,7 @@ packages:
     resolution: {integrity: sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==}
     engines: {node: '>=6 <7 || >=8'}
     dependencies:
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
       jsonfile: 4.0.0
       universalify: 0.1.2
     dev: true
@@ -5520,7 +5520,7 @@ packages:
     resolution: {integrity: sha512-WvJ193OHa0GHPEL+AycEJgxvBEwyfRkN1vhjca23OaPVMCaLCXTd5qAu82AjTcgP1UJmytkOKb63Ypde7raDIg==}
     engines: {node: '>=0.6'}
     dependencies:
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
       inherits: 2.0.4
       mkdirp: 0.5.6
       rimraf: 2.7.1
@@ -6739,7 +6739,7 @@ packages:
   /jsonfile/4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
     optionalDependencies:
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
     dev: true
 
   /jsonfile/6.1.0:
@@ -6747,7 +6747,7 @@ packages:
     dependencies:
       universalify: 2.0.0
     optionalDependencies:
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
     dev: true
 
   /jsonpointer/5.0.0:
@@ -7450,7 +7450,7 @@ packages:
     dependencies:
       env-paths: 2.2.1
       glob: 7.2.0
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
       make-fetch-happen: 10.2.1
       nopt: 6.0.0
       npmlog: 6.0.1
@@ -7991,12 +7991,12 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier-config-standard/5.0.0_prettier@2.8.1:
+  /prettier-config-standard/5.0.0_prettier@2.8.2:
     resolution: {integrity: sha512-QK252QwCxlsak8Zx+rPKZU31UdbRcu9iUk9X1ONYtLSO221OgvV9TlKoTf6iPDZtvF3vE2mkgzFIEgSUcGELSQ==}
     peerDependencies:
       prettier: ^2.4.0
     dependencies:
-      prettier: 2.8.1
+      prettier: 2.8.2
     dev: true
 
   /prettier-linter-helpers/1.0.0:
@@ -8006,8 +8006,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+  /prettier/2.8.2:
+    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -9629,7 +9629,7 @@ packages:
       buffer-indexof-polyfill: 1.0.2
       duplexer2: 0.1.4
       fstream: 1.0.12
-      graceful-fs: 4.2.9
+      graceful-fs: 4.2.10
       listenercount: 1.0.1
       readable-stream: 2.3.7
       setimmediate: 1.0.5
