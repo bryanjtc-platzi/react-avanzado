@@ -36,7 +36,7 @@
     "eslint-plugin-promise": "6.1.1",
     "firebase-tools": "11.20.0",
     "json-schema": "0.4.0",
-    "prettier": "2.8.2",
+    "prettier": "2.8.3",
     "prettier-config-standard": "5.0.0",
     "prop-styles": "2.0.0",
     "standard": "17.0.0",
