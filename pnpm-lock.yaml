@@ -10,7 +10,7 @@ specifiers:
   eslint-config-prettier: 8.6.0
   eslint-config-prettier-standard: 4.0.1
   eslint-config-standard: 17.0.0
-  eslint-plugin-import: 2.27.4
+  eslint-plugin-import: 2.27.5
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-promise: 6.1.1
@@ -58,8 +58,8 @@ devDependencies:
   cypress: 12.3.0
   eslint-config-prettier: 8.6.0
   eslint-config-prettier-standard: 4.0.1_819fec5efc48784d17fe485926748970
-  eslint-config-standard: 17.0.0_40bc7208e3a916a10deec234312efa97
-  eslint-plugin-import: 2.27.4
+  eslint-config-standard: 17.0.0_fa036a140255d048ebb10e0272042603
+  eslint-plugin-import: 2.27.5
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_9175a33f87e2d71df34a2a4606d08b1e
   eslint-plugin-promise: 6.1.1
@@ -4628,7 +4628,7 @@ packages:
       prettier-config-standard: '>=1.0.0'
     dependencies:
       eslint-config-prettier: 8.6.0
-      eslint-config-standard: 17.0.0_40bc7208e3a916a10deec234312efa97
+      eslint-config-standard: 17.0.0_fa036a140255d048ebb10e0272042603
       eslint-plugin-prettier: 4.2.1_9175a33f87e2d71df34a2a4606d08b1e
       prettier-config-standard: 5.0.0_prettier@2.8.3
     dev: true
@@ -4650,19 +4650,7 @@ packages:
       eslint-plugin-react: 7.29.4_eslint@8.13.0
     dev: true
 
-  /eslint-config-standard/17.0.0_40bc7208e3a916a10deec234312efa97:
-    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
-    peerDependencies:
-      eslint: ^8.0.1
-      eslint-plugin-import: ^2.25.2
-      eslint-plugin-n: ^15.0.0
-      eslint-plugin-promise: ^6.0.0
-    dependencies:
-      eslint-plugin-import: 2.27.4
-      eslint-plugin-promise: 6.1.1
-    dev: true
-
-  /eslint-config-standard/17.0.0_d78ab5ef6847a28912f18171c05b5496:
+  /eslint-config-standard/17.0.0_7649dedf09c538a51bc9e9cd4951a660:
     resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
     peerDependencies:
       eslint: ^8.0.1
@@ -4671,9 +4659,21 @@ packages:
       eslint-plugin-promise: ^6.0.0
     dependencies:
       eslint: 8.13.0
-      eslint-plugin-import: 2.27.4_eslint@8.13.0
+      eslint-plugin-import: 2.27.5_eslint@8.13.0
       eslint-plugin-n: 15.1.0_eslint@8.13.0
       eslint-plugin-promise: 6.1.1_eslint@8.13.0
+    dev: true
+
+  /eslint-config-standard/17.0.0_fa036a140255d048ebb10e0272042603:
+    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
+    peerDependencies:
+      eslint: ^8.0.1
+      eslint-plugin-import: ^2.25.2
+      eslint-plugin-n: ^15.0.0
+      eslint-plugin-promise: ^6.0.0
+    dependencies:
+      eslint-plugin-import: 2.27.5
+      eslint-plugin-promise: 6.1.1
     dev: true
 
   /eslint-import-resolver-node/0.3.7:
@@ -4762,8 +4762,8 @@ packages:
       regexpp: 3.2.0
     dev: true
 
-  /eslint-plugin-import/2.27.4:
-    resolution: {integrity: sha512-Z1jVt1EGKia1X9CnBCkpAOhWy8FgQ7OmJ/IblEkT82yrFU/xJaxwujaTzLWqigewwynRQ9mmHfX9MtAfhxm0sA==}
+  /eslint-plugin-import/2.27.5:
+    resolution: {integrity: sha512-LmEt3GVofgiGuiE+ORpnvP+kAm3h6MLZJ4Q5HCyHADofsb4VzXFsRiWj3c0OFiV+3DWFh0qg3v9gcPlfc3zRow==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -4793,8 +4793,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-import/2.27.4_eslint@8.13.0:
-    resolution: {integrity: sha512-Z1jVt1EGKia1X9CnBCkpAOhWy8FgQ7OmJ/IblEkT82yrFU/xJaxwujaTzLWqigewwynRQ9mmHfX9MtAfhxm0sA==}
+  /eslint-plugin-import/2.27.5_eslint@8.13.0:
+    resolution: {integrity: sha512-LmEt3GVofgiGuiE+ORpnvP+kAm3h6MLZJ4Q5HCyHADofsb4VzXFsRiWj3c0OFiV+3DWFh0qg3v9gcPlfc3zRow==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -9051,9 +9051,9 @@ packages:
     hasBin: true
     dependencies:
       eslint: 8.13.0
-      eslint-config-standard: 17.0.0_d78ab5ef6847a28912f18171c05b5496
+      eslint-config-standard: 17.0.0_7649dedf09c538a51bc9e9cd4951a660
       eslint-config-standard-jsx: 11.0.0_fd8f4eaf63e14ac8b74ee706a2500c0c
-      eslint-plugin-import: 2.27.4_eslint@8.13.0
+      eslint-plugin-import: 2.27.5_eslint@8.13.0
       eslint-plugin-n: 15.1.0_eslint@8.13.0
       eslint-plugin-promise: 6.1.1_eslint@8.13.0
       eslint-plugin-react: 7.29.4_eslint@8.13.0
