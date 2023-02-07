@@ -30,7 +30,7 @@ specifiers:
   react-router-dom: ^6.2.2
   standard: 17.0.0
   styled-components: ^5.3.3
-  vercel: 28.15.1
+  vercel: 28.15.2
   webpack: 5.75.0
   webpack-cli: 5.0.1
   webpack-dev-server: 4.11.1
@@ -69,7 +69,7 @@ devDependencies:
   prettier-config-standard: 5.0.0_prettier@2.8.3
   prop-styles: 2.0.0
   standard: 17.0.0
-  vercel: 28.15.1
+  vercel: 28.15.2
   webpack: 5.75.0_webpack-cli@5.0.1
   webpack-cli: 5.0.1_a03037929752522b8c382995bf0923ba
   webpack-dev-server: 4.11.1_webpack-cli@5.0.1+webpack@5.75.0
@@ -85,13 +85,13 @@ packages:
       '@jridgewell/trace-mapping': 0.3.13
     dev: true
 
-  /@apideck/better-ajv-errors/0.3.3_ajv@8.10.0:
+  /@apideck/better-ajv-errors/0.3.3_ajv@8.12.0:
     resolution: {integrity: sha512-9o+HO2MbJhJHjDYZaDxJmSDckvDpiuItEsrIShV0DXeCshXWRHhqYyU/PKHMkuClOmFnZhRd6wzv4vpDu/dRKg==}
     engines: {node: '>=10'}
     peerDependencies:
       ajv: '>=8'
     dependencies:
-      ajv: 8.10.0
+      ajv: 8.12.0
       json-schema: 0.4.0
       jsonpointer: 5.0.0
       leven: 3.1.0
@@ -2389,8 +2389,8 @@ packages:
     dev: true
     optional: true
 
-  /@vercel/build-utils/6.2.0:
-    resolution: {integrity: sha512-/GCE7WMxygyLVNx2HJc7TrCIqR/+4v8sBaHXo2zOyz2i3KmJJQ6tk2nuZnum+UVDO+7MmAPHIp/UIS+6ONMV9Q==}
+  /@vercel/build-utils/6.2.1:
+    resolution: {integrity: sha512-N02exe9Ip9mB1Jrbt/UT2+fOtSptT74M70AUpzNUeOVTn9801dMAGB2OKyHREnLYYmnuOqF/mrvIDEBWRH2pZQ==}
     dev: true
 
   /@vercel/gatsby-plugin-vercel-analytics/1.0.7:
@@ -2400,11 +2400,11 @@ packages:
       web-vitals: 0.2.4
     dev: true
 
-  /@vercel/gatsby-plugin-vercel-builder/1.1.1:
-    resolution: {integrity: sha512-G/jQhboNUDHYF+I83z5uq0Rj7SDcAz2WpR2Spy6e8ALtT1iwSPj2nhsJhTWQthK41dTeCalQqhbJXMs3370UEg==}
+  /@vercel/gatsby-plugin-vercel-builder/1.1.2:
+    resolution: {integrity: sha512-lOUgsrk2bcrupj5cg0AVc++zvHpvLS0gn0FI8E9ja9jaYBP3JBbWLQ2YYwVHERQkcklp+s//We9C6v6DqkDsGQ==}
     dependencies:
-      '@vercel/build-utils': 6.2.0
-      '@vercel/node': 2.9.1
+      '@vercel/build-utils': 6.2.1
+      '@vercel/node': 2.9.2
       '@vercel/routing-utils': 2.1.8
       ajv: 8.12.0
       esbuild: 0.14.47
@@ -2416,16 +2416,16 @@ packages:
       - encoding
     dev: true
 
-  /@vercel/go/2.3.2:
-    resolution: {integrity: sha512-UO3WQwJuaB7ybBw+lxaG7bIeTL1G/yFTNrRvFYIGhQwTxjzpZZF0qL8sU7oLqPR6VN5Ldqu8pNgc9aEfvp7bVg==}
+  /@vercel/go/2.3.3:
+    resolution: {integrity: sha512-iVkaj+Lb+ftcl1NADQzLmjW73TvNdtDdpcBNjNHYrmaxc3OFbvUPg5ANI4gzsBF9vtK3seYW87yzr1UEs/cEfA==}
     dev: true
 
-  /@vercel/hydrogen/0.0.48:
-    resolution: {integrity: sha512-n9xHDLRgwN8sHNy9sv7/RUa6R59tY4hbZy+64ugjzvUk8AdMJZDl2kdrDRFfsToskqCLWeGaDIRooLRJ5vNP5w==}
+  /@vercel/hydrogen/0.0.49:
+    resolution: {integrity: sha512-DQn/FEPlc/siIh2+EMWXw9kGIxp3FIWNlKGuKnZ7GU5SobNKF+63rQoGqASBQrlJYru92RaDA/nGLojCLmib1Q==}
     dev: true
 
-  /@vercel/next/3.4.0:
-    resolution: {integrity: sha512-/3eeHRlA+LmZe2TGCJ8cJqSfduSDCQM4nQrJqysxFLUmQ9PNhiKVD5ixGVgChOBGnVgPqYqRALdGvOzqsCqfTg==}
+  /@vercel/next/3.4.1:
+    resolution: {integrity: sha512-q2t2McQZwu+CjH1vbSBbGHCk+mDolNvry+azYR/4XBERr5MVl4xvMkJIDoy5HSUMk2Hb5AtCGQOyPVTmApkQbQ==}
     dev: true
 
   /@vercel/nft/0.22.5:
@@ -2453,12 +2453,12 @@ packages:
     resolution: {integrity: sha512-0DQzF5pdyP+xd5f1Ss2fAO+9xIvzUhngRAPazwg4XHZE9iLkv2L+A1u3L8NYi4hoUlAAZQ5GF3txlm/oBn4tNw==}
     dev: true
 
-  /@vercel/node/2.9.1:
-    resolution: {integrity: sha512-HKb+e+VZlHCRzRtoGf+OxEnPQS+XUDkcoD0fBGakgF1DxW9l+Yn+aEYVi7D7bhVJljnB7+8cOHF2p4aQ84vg3w==}
+  /@vercel/node/2.9.2:
+    resolution: {integrity: sha512-RwGQFjhlp3vHuudREmNRtLGn5TlvhXkC297vJZvAs7ATDZpWscRboVDUZL1jcQiyOrO9lDXNyUeEh6LY89NpFw==}
     dependencies:
       '@edge-runtime/vm': 2.0.0
       '@types/node': 14.18.33
-      '@vercel/build-utils': 6.2.0
+      '@vercel/build-utils': 6.2.1
       '@vercel/node-bridge': 3.1.10
       '@vercel/static-config': 2.0.12
       edge-runtime: 2.0.0
@@ -2473,12 +2473,12 @@ packages:
       - encoding
     dev: true
 
-  /@vercel/python/3.1.44:
-    resolution: {integrity: sha512-+S0ui4D+l/Gzm3MXpn3XyxB11ReVewnR1ujTcQ7Vvpvdrplnqzmy3QxK1tPlUlmyDxjmIO4FuYs16tWUvXNruw==}
+  /@vercel/python/3.1.45:
+    resolution: {integrity: sha512-u15Zo2DdNobT0w7qOFQ8pEPx9aChZF5kOQa7XByGVp+r4drDW6PSgjNNtJP61uVRgEc/M84m6MoCp7VsOKF+nQ==}
     dev: true
 
-  /@vercel/redwood/1.1.0:
-    resolution: {integrity: sha512-C76rEiMhDJ9nj2O9EsgwBKIOE2zBIrYvn2IgUQrqaUDPuJbLCukdoMy9L8dn++JlVywX9u333WvFs27Fig/jrw==}
+  /@vercel/redwood/1.1.1:
+    resolution: {integrity: sha512-Uxx2/OOtaSkDYUEGZxs29I9xQpm8byMbv3WMq1RGBAiMvzaEYUcVRAoFzSTH8Y2i3D2ncr/7hzGnFA8y19HXVA==}
     dependencies:
       '@vercel/nft': 0.22.5
       '@vercel/routing-utils': 2.1.8
@@ -2488,8 +2488,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/remix/1.2.11:
-    resolution: {integrity: sha512-muH4kzC1/tnX6ZKiTjKs6K3jbK0RyZq484ii6U2e1C3R165yQ9Az+EQVxo7Kh1Akg/pc1GTShV7roYcYMHx0bA==}
+  /@vercel/remix/1.2.12:
+    resolution: {integrity: sha512-F3dkZGUlbOrjyZz/kWOmbJjLfb3oPmsSZE7EBoLBlSMFglQT2VzOegFTcl0ur6Ybt6inPDJZes6vq/dUA3fDoQ==}
     dependencies:
       '@vercel/nft': 0.22.5
     transitivePeerDependencies:
@@ -2505,15 +2505,15 @@ packages:
       ajv: 6.12.6
     dev: true
 
-  /@vercel/ruby/1.3.60:
-    resolution: {integrity: sha512-0UiwoSt8sma6Tbo/TG3zpAv+n9W6MAANTrOo5e9iwifS6PI8D5YH5DGVWHPoJmFnr5zZ3QwamBpGdr+T5MtB5g==}
+  /@vercel/ruby/1.3.61:
+    resolution: {integrity: sha512-kVhlkUKc0UMO9YMIuACofOyEXlehp2xk2QLLk455MDqnBZ6wpYlNTaNvvZ+StJpP7v78vV1OXs45Cd74ehi5/Q==}
     dev: true
 
-  /@vercel/static-build/1.3.3:
-    resolution: {integrity: sha512-GmE7xrfkEbXF3Wmdj0LFUFfLsamWyhqpwpXcfvhNzV0J6bbJKaehfAqtWL1yznA7bGVPAIjgHNR7nbjw8n6mcQ==}
+  /@vercel/static-build/1.3.4:
+    resolution: {integrity: sha512-zpDtmlpvr5kae35aIY1zmF/1PCwrH89Sf5coWe5rnn7N9zWrYhzgpbL+6PaUettBCtr0aF44kG+gTkKt9JCF4A==}
     dependencies:
       '@vercel/gatsby-plugin-vercel-analytics': 1.0.7
-      '@vercel/gatsby-plugin-vercel-builder': 1.1.1
+      '@vercel/gatsby-plugin-vercel-builder': 1.1.2
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -9644,22 +9644,22 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  /vercel/28.15.1:
-    resolution: {integrity: sha512-CwtKWBZVrCP+uOHHLh6Kwnh3bx8PnzlDd8XqUVo2/yVwlv4ulk/A3/YteWiA8WLm+qSvQT78c5ehGMmLSVTWJQ==}
+  /vercel/28.15.2:
+    resolution: {integrity: sha512-yIe/LxB7yihmfIfyWm9ax3rwZVohlC82NWD9LT+aFQepWy8NfdTZyOaWLOIQTVYw7qAfKQ4NKJWkLRuFiMKZUw==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@vercel/build-utils': 6.2.0
-      '@vercel/go': 2.3.2
-      '@vercel/hydrogen': 0.0.48
-      '@vercel/next': 3.4.0
-      '@vercel/node': 2.9.1
-      '@vercel/python': 3.1.44
-      '@vercel/redwood': 1.1.0
-      '@vercel/remix': 1.2.11
-      '@vercel/ruby': 1.3.60
-      '@vercel/static-build': 1.3.3
+      '@vercel/build-utils': 6.2.1
+      '@vercel/go': 2.3.3
+      '@vercel/hydrogen': 0.0.49
+      '@vercel/next': 3.4.1
+      '@vercel/node': 2.9.2
+      '@vercel/python': 3.1.45
+      '@vercel/redwood': 1.1.1
+      '@vercel/remix': 1.2.12
+      '@vercel/ruby': 1.3.61
+      '@vercel/static-build': 1.3.4
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -10006,7 +10006,7 @@ packages:
     resolution: {integrity: sha512-kgRevLXEYvUW9WS4XoziYqZ8Q9j/2ziJYEtTrjdz5/L/cTUa2XfyMP2i7c3p34lgqJ03+mTiz13SdFef2POwbA==}
     engines: {node: '>=10.0.0'}
     dependencies:
-      '@apideck/better-ajv-errors': 0.3.3_ajv@8.10.0
+      '@apideck/better-ajv-errors': 0.3.3_ajv@8.12.0
       '@babel/core': 7.20.12
       '@babel/preset-env': 7.20.2_@babel+core@7.20.12
       '@babel/runtime': 7.17.2
@@ -10014,7 +10014,7 @@ packages:
       '@rollup/plugin-node-resolve': 11.2.1_rollup@2.69.2
       '@rollup/plugin-replace': 2.4.2_rollup@2.69.2
       '@surma/rollup-plugin-off-main-thread': 2.2.3
-      ajv: 8.10.0
+      ajv: 8.12.0
       common-tags: 1.8.2
       fast-json-stable-stringify: 2.1.0
       fs-extra: 9.1.0
