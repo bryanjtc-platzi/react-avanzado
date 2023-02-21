@@ -30,7 +30,7 @@ specifiers:
   react-router-dom: ^6.2.2
   standard: 17.0.0
   styled-components: ^5.3.3
-  vercel: 28.16.2
+  vercel: 28.16.3
   webpack: 5.75.0
   webpack-cli: 5.0.1
   webpack-dev-server: 4.11.1
@@ -69,7 +69,7 @@ devDependencies:
   prettier-config-standard: 5.0.0_prettier@2.8.4
   prop-styles: 2.0.0
   standard: 17.0.0
-  vercel: 28.16.2
+  vercel: 28.16.3
   webpack: 5.75.0_webpack-cli@5.0.1
   webpack-cli: 5.0.1_a03037929752522b8c382995bf0923ba
   webpack-dev-server: 4.11.1_webpack-cli@5.0.1+webpack@5.75.0
@@ -1113,7 +1113,7 @@ packages:
       '@babel/helper-module-imports': 7.18.6
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-jsx': 7.18.6_@babel+core@7.21.0
-      '@babel/types': 7.20.7
+      '@babel/types': 7.21.0
     dev: true
 
   /@babel/plugin-transform-react-pure-annotations/7.18.6_@babel+core@7.21.0:
@@ -1420,15 +1420,6 @@ packages:
 
   /@babel/types/7.20.2:
     resolution: {integrity: sha512-FnnvsNWgZCr232sqtXggapvlkk/tuwR/qhGzcmxI0GXLCjmPYQPzio2FbdlWuY6y1sHFfQKk+rRbUZ9VStQMog==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.19.4
-      '@babel/helper-validator-identifier': 7.19.1
-      to-fast-properties: 2.0.0
-    dev: true
-
-  /@babel/types/7.20.7:
-    resolution: {integrity: sha512-69OnhBxSSgK0OzTJai4kyPDiKTIe3j+ctaHdIGVbRahTLAT7L3R9oeXHC2aVSuGYt3cVnoAMDmOCgJ2yaiLMvg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-string-parser': 7.19.4
@@ -2236,7 +2227,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/set-array': 1.1.0
-      '@jridgewell/sourcemap-codec': 1.4.11
+      '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
   /@jridgewell/gen-mapping/0.3.2:
@@ -2244,7 +2235,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/set-array': 1.1.0
-      '@jridgewell/sourcemap-codec': 1.4.11
+      '@jridgewell/sourcemap-codec': 1.4.14
       '@jridgewell/trace-mapping': 0.3.17
 
   /@jridgewell/resolve-uri/3.1.0:
@@ -2254,9 +2245,6 @@ packages:
   /@jridgewell/set-array/1.1.0:
     resolution: {integrity: sha512-SfJxIxNVYLTsKwzB3MoOQ1yxf4w/E6MdkvTgrgAt1bfxjSrLUoHMKrDOykwN14q65waezZIdqDneUIPh4/sKxg==}
     engines: {node: '>=6.0.0'}
-
-  /@jridgewell/sourcemap-codec/1.4.11:
-    resolution: {integrity: sha512-Fg32GrJo61m+VqYSdRSjRXMjQ06j8YIYfcTqndLYVAaHmroZHLJZCydsWBOTDqXS2v+mjxohBWEMfg97GXmYQg==}
 
   /@jridgewell/sourcemap-codec/1.4.14:
     resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
@@ -2971,8 +2959,8 @@ packages:
     resolution: {integrity: sha512-gJvAL0SbAOR1gS6MMr0EHnKlD3Ri1F0eniIfDpV5qgSNqjzVSSVI3tT8ag4KCS70H1tawj16XMR7oPRcKmyebQ==}
     dev: true
 
-  /@vercel/next/3.5.0:
-    resolution: {integrity: sha512-phwrUB451zhm1lSlc5ZpTK97iwPyTHuoM26YL7R/3siXjGOVwSG/4j31lwH16HgOama0OLM1VdhDXCN39jLkPA==}
+  /@vercel/next/3.5.1:
+    resolution: {integrity: sha512-iEG/AAfs1o7JxIxeUxxsT8b/MPmhpWVCrs5qXycQ7O9XILCKpgvX9RR4m8ToS3BjDWR6qNTHdE3BLXUeYo4olw==}
     dev: true
 
   /@vercel/nft/0.22.5:
@@ -3035,8 +3023,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/remix/1.3.4:
-    resolution: {integrity: sha512-iiEAanyxzdhGxTdJT6RZkJCaXP47eKPguIsgNmlxYjK20iT9XrSSIYEOpwKYfg1Qi8efUUU26SEBDjOrYUossQ==}
+  /@vercel/remix/1.3.5:
+    resolution: {integrity: sha512-nFb9KbSWv1KmfjY+tRKRJHS7cqiWN/L903XHXXzOYFwsT+d0nuhevsw9yTVHVywlTG6t3iGO31/pcXIJpQHtRg==}
     dependencies:
       '@remix-run/dev': 1.12.0
       '@vercel/nft': 0.22.5
@@ -11648,8 +11636,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  /vercel/28.16.2:
-    resolution: {integrity: sha512-qgKZ7SCu3vLYe7XsPzljjrM1NV09hqSgPHvtMHCLKgtu66LSWYxRm4f4T1GvWKlZ9OZ9Fy76IfyIVegjrejx1A==}
+  /vercel/28.16.3:
+    resolution: {integrity: sha512-Jo+sV18ykRIG/Osae14hF3H3f7JIpSEfs5PruwK5Y5htILIB+ydrcC/eTiuQbQxYy4LIuU4thz2GA4k2KqobPw==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
@@ -11657,11 +11645,11 @@ packages:
       '@vercel/build-utils': 6.3.0
       '@vercel/go': 2.3.7
       '@vercel/hydrogen': 0.0.53
-      '@vercel/next': 3.5.0
+      '@vercel/next': 3.5.1
       '@vercel/node': 2.9.6
       '@vercel/python': 3.1.49
       '@vercel/redwood': 1.1.5
-      '@vercel/remix': 1.3.4
+      '@vercel/remix': 1.3.5
       '@vercel/ruby': 1.3.66
       '@vercel/static-build': 1.3.10
     transitivePeerDependencies:
