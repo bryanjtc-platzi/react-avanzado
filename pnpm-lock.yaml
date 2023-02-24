@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-promise: 6.1.1
-  firebase-tools: 11.23.1
+  firebase-tools: 11.24.0
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_1d92c5e9f54c94da466ac5071f0c8574
   eslint-plugin-promise: 6.1.1
-  firebase-tools: 11.23.1
+  firebase-tools: 11.24.0
   json-schema: 0.4.0
   prettier: 2.8.4
   prettier-config-standard: 5.0.0_prettier@2.8.4
@@ -6205,8 +6205,8 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /firebase-tools/11.23.1:
-    resolution: {integrity: sha512-yBYvIrdG+NTnkcWEP4QIdyqbpfwj01X6CQ3uozSEzr2yx1mmWgg148PGy5+ap/NuFkPiMkxBC0UqktoudZFGGg==}
+  /firebase-tools/11.24.0:
+    resolution: {integrity: sha512-fqwI6rBCvMs3E2pLYEzJYPIB+cmLxV9l+bX7VZHpxhUvbZZrM7271C8sjiBdIh97ue+BvgXHqTDlsW88ZZXt1g==}
     engines: {node: ^14.18.0 || >=16.4.0}
     hasBin: true
     dependencies:
@@ -6234,7 +6234,7 @@ packages:
       fs-extra: 10.1.0
       glob: 7.2.0
       google-auth-library: 7.14.0
-      inquirer: 8.2.0
+      inquirer: 8.2.5
       js-yaml: 3.14.1
       jsonwebtoken: 9.0.0
       leven: 3.1.0
@@ -7243,26 +7243,6 @@ packages:
 
   /inline-style-parser/0.1.1:
     resolution: {integrity: sha512-7NXolsK4CAS5+xvdj5OMMbI962hU/wvwoxk+LWR9Ek9bVtyuuYScDN6eS0rUm6TxApFpw7CX1o4uJzcd4AyD3Q==}
-    dev: true
-
-  /inquirer/8.2.0:
-    resolution: {integrity: sha512-0crLweprevJ02tTuA6ThpoAERAGyVILC4sS74uib58Xf/zSr1/ZWtmm7D5CI+bSQEaA04f0K7idaHpQbSWgiVQ==}
-    engines: {node: '>=8.0.0'}
-    dependencies:
-      ansi-escapes: 4.3.2
-      chalk: 4.1.2
-      cli-cursor: 3.1.0
-      cli-width: 3.0.0
-      external-editor: 3.1.0
-      figures: 3.2.0
-      lodash: 4.17.21
-      mute-stream: 0.0.8
-      ora: 5.4.1
-      run-async: 2.4.1
-      rxjs: 7.8.0
-      string-width: 4.2.3
-      strip-ansi: 6.0.1
-      through: 2.3.8
     dev: true
 
   /inquirer/8.2.5:
