@@ -41,7 +41,7 @@
     "prop-styles": "2.0.0",
     "standard": "17.0.0",
     "vercel": "28.18.5",
-    "webpack": "5.78.0",
+    "webpack": "5.79.0",
     "webpack-cli": "5.0.1",
     "webpack-dev-server": "4.13.2",
     "webpack-pwa-manifest": "4.3.0",
