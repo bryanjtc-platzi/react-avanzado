@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-promise: 6.1.1
-  firebase-tools: 11.29.0
+  firebase-tools: 11.29.1
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_616bceee4d6b29238a3d33b8b424e69e
   eslint-plugin-promise: 6.1.1
-  firebase-tools: 11.29.0
+  firebase-tools: 11.29.1
   json-schema: 0.4.0
   prettier: 2.8.8
   prettier-config-standard: 5.0.0_prettier@2.8.8
@@ -6484,8 +6484,8 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /firebase-tools/11.29.0:
-    resolution: {integrity: sha512-LaWOSXr/7LL4JVQgzUZttz0QbBmExctw339q+RwYe0T2MxwptN1A5CuBkvzgaRmMO3aq+eadS1kScyhsG5sv3Q==}
+  /firebase-tools/11.29.1:
+    resolution: {integrity: sha512-gvnLjJPTjZqxYiPMQzvdOXT/3y5ZYUmPg6CKOdM9kPd0uylxTW/MY3uVo1P6cc1CqA96W3fl43aA+4XZaOmXSQ==}
     engines: {node: ^14.18.0 || >=16.4.0}
     hasBin: true
     dependencies:
@@ -9017,10 +9017,6 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
-  /minimist/1.2.6:
-    resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
-    dev: true
-
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: true
@@ -11093,7 +11089,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       get-stdin: 8.0.0
-      minimist: 1.2.6
+      minimist: 1.2.8
       pkg-conf: 3.1.0
       xdg-basedir: 4.0.0
     dev: true
