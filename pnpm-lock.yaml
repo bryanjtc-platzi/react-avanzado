@@ -30,7 +30,7 @@ specifiers:
   react-router-dom: ^6.2.2
   standard: 17.0.0
   styled-components: ^5.3.3
-  vercel: 29.2.1
+  vercel: 29.3.0
   webpack: 5.82.1
   webpack-cli: 5.1.1
   webpack-dev-server: 4.15.0
@@ -69,7 +69,7 @@ devDependencies:
   prettier-config-standard: 5.0.0_prettier@2.8.8
   prop-styles: 2.0.0
   standard: 17.0.0
-  vercel: 29.2.1
+  vercel: 29.3.0
   webpack: 5.82.1_webpack-cli@5.1.1
   webpack-cli: 5.1.1_900bf83bec213b50f9747ffeec930792
   webpack-dev-server: 4.15.0_webpack-cli@5.1.1+webpack@5.82.1
@@ -11629,8 +11629,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  /vercel/29.2.1:
-    resolution: {integrity: sha512-B5bPccJ8g8ct20SgnWLZ4qhxbR2iaKZ60lT/Kdv5+teJYDsPVrGJtBaIVCr3uKE3AX0llYoNcKYoul83lS0shQ==}
+  /vercel/29.3.0:
+    resolution: {integrity: sha512-6YKCh+okPVcAOqNq9V3mK1j8kdVgNm4F7PTweVrtupEAX1F1V0cntcbtGbLAdGaONTA6PHxmeik9LnplInSW0Q==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
