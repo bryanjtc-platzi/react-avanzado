@@ -40,7 +40,7 @@
     "prettier-config-standard": "5.0.0",
     "prop-styles": "2.0.0",
     "standard": "17.0.0",
-    "vercel": "29.3.3",
+    "vercel": "29.3.4",
     "webpack": "5.83.1",
     "webpack-cli": "5.1.1",
     "webpack-dev-server": "4.15.0",
