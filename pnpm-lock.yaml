@@ -9,7 +9,7 @@ specifiers:
   cypress: 12.13.0
   eslint-config-prettier: 8.8.0
   eslint-config-prettier-standard: 4.0.1
-  eslint-config-standard: 17.0.0
+  eslint-config-standard: 17.1.0
   eslint-plugin-import: 2.27.5
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
@@ -57,8 +57,8 @@ devDependencies:
   babel-loader: 9.1.2_f0164f8142f962696209cc50bd3650f3
   cypress: 12.13.0
   eslint-config-prettier: 8.8.0
-  eslint-config-prettier-standard: 4.0.1_a8bf4b0cc25c5dd154283c669227d09e
-  eslint-config-standard: 17.0.0_fa036a140255d048ebb10e0272042603
+  eslint-config-prettier-standard: 4.0.1_2727fffebd7090021148ceaeb77a4943
+  eslint-config-standard: 17.1.0_fa036a140255d048ebb10e0272042603
   eslint-plugin-import: 2.27.5
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_616bceee4d6b29238a3d33b8b424e69e
@@ -5501,7 +5501,7 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier-standard/4.0.1_a8bf4b0cc25c5dd154283c669227d09e:
+  /eslint-config-prettier-standard/4.0.1_2727fffebd7090021148ceaeb77a4943:
     resolution: {integrity: sha512-l5IsZo387QArxPcRl6qcsQnc0hf66rrV5p3RvMDcHL9FGXRJ/s3/ZCES343gMGgyYN+XTJpBnwJHCnZegAMmfw==}
     peerDependencies:
       eslint-config-prettier: '>=5.0.0'
@@ -5510,7 +5510,7 @@ packages:
       prettier-config-standard: '>=1.0.0'
     dependencies:
       eslint-config-prettier: 8.8.0
-      eslint-config-standard: 17.0.0_fa036a140255d048ebb10e0272042603
+      eslint-config-standard: 17.1.0_fa036a140255d048ebb10e0272042603
       eslint-plugin-prettier: 4.2.1_616bceee4d6b29238a3d33b8b424e69e
       prettier-config-standard: 5.0.0_prettier@2.8.8
     dev: true
@@ -5546,12 +5546,13 @@ packages:
       eslint-plugin-promise: 6.1.1_eslint@8.13.0
     dev: true
 
-  /eslint-config-standard/17.0.0_fa036a140255d048ebb10e0272042603:
-    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
+  /eslint-config-standard/17.1.0_fa036a140255d048ebb10e0272042603:
+    resolution: {integrity: sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==}
+    engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^8.0.1
       eslint-plugin-import: ^2.25.2
-      eslint-plugin-n: ^15.0.0
+      eslint-plugin-n: '^15.0.0 || ^16.0.0 '
       eslint-plugin-promise: ^6.0.0
     dependencies:
       eslint-plugin-import: 2.27.5
