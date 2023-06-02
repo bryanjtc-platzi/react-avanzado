@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-promise: 6.1.1
-  firebase-tools: 12.2.1
+  firebase-tools: 12.3.0
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1_616bceee4d6b29238a3d33b8b424e69e
   eslint-plugin-promise: 6.1.1
-  firebase-tools: 12.2.1
+  firebase-tools: 12.3.0
   json-schema: 0.4.0
   prettier: 2.8.8
   prettier-config-standard: 5.0.0_prettier@2.8.8
@@ -6346,8 +6346,8 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /firebase-tools/12.2.1:
-    resolution: {integrity: sha512-9QjNJRFf+v5kgkRO0yXmVYNUZ8fZI6FrOTrgp7YQ2fhqytaIpEQrKSbKZebGlSjDGvcX87daKEsUEjqj0LuSvw==}
+  /firebase-tools/12.3.0:
+    resolution: {integrity: sha512-Z6Pl3Vp1wMKEroqCvT8Fm9UDXhWK+Bdq5zQjfTngTBqLL2FlL0/C4aG+D69aCLg5Q9Xyq8mc2pWnaEge40GqFw==}
     engines: {node: '>=16.13.0 || >=18.0.0'}
     hasBin: true
     dependencies:
