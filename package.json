@@ -26,7 +26,7 @@
     "@babel/preset-env": "7.22.4",
     "@babel/preset-react": "7.22.3",
     "babel-loader": "9.1.2",
-    "cypress": "12.13.0",
+    "cypress": "12.14.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-config-prettier-standard": "4.0.1",
     "eslint-config-standard": "17.1.0",
