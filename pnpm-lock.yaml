@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 5.0.0
   eslint-plugin-promise: 6.1.1
-  firebase-tools: 12.4.3
+  firebase-tools: 12.4.4
   graphql: ^16.3.0
   html-webpack-plugin: ^5.5.0
   intersection-observer: ^0.12.0
@@ -63,7 +63,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 5.0.0_1193aa0ffc5781d206bc12c0f40cdcef
   eslint-plugin-promise: 6.1.1
-  firebase-tools: 12.4.3
+  firebase-tools: 12.4.4
   json-schema: 0.4.0
   prettier: 3.0.0
   prettier-config-standard: 5.0.0_prettier@3.0.0
@@ -6310,8 +6310,8 @@ packages:
       path-exists: 5.0.0
     dev: true
 
-  /firebase-tools/12.4.3:
-    resolution: {integrity: sha512-B/E4kV7bzpzT3nLgbU34ImZs1Z/RwdvQGjbvtJ1+Tvs28ml7tpdf2b6yJchZIsK9ALHNcOfYPGSbWoLRaykZAA==}
+  /firebase-tools/12.4.4:
+    resolution: {integrity: sha512-Zvk+NX2X2FqsGj91QgWoj17OjJ0E+W95azyIomeoS1SF1MKGHNh1W/HMCHVGngYeIABgmZc0AJr3+33M5owl1w==}
     engines: {node: '>=16.13.0 || >=18.0.0'}
     hasBin: true
     dependencies:
@@ -6360,7 +6360,7 @@ packages:
       request: 2.88.2
       retry: 0.13.1
       rimraf: 3.0.2
-      semver: 5.7.1
+      semver: 7.5.3
       stream-chain: 2.2.5
       stream-json: 1.7.4
       strip-ansi: 6.0.1
@@ -12023,6 +12023,7 @@ packages:
   /vm2/3.9.9:
     resolution: {integrity: sha512-xwTm7NLh/uOjARRBs8/95H0e8fT3Ukw5D/JJWhxMbhKzNh1Nu981jQKvkep9iKYNxzlVrdzD0mlBGkDKZWprlw==}
     engines: {node: '>=6.0'}
+    deprecated: The library contains critical security issues and should not be used for production! The maintenance of the project has been discontinued. Consider migrating your code to isolated-vm.
     hasBin: true
     dependencies:
       acorn: 8.8.2
