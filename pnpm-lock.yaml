@@ -44,8 +44,8 @@ devDependencies:
     specifier: 7.23.2
     version: 7.23.2
   '@babel/preset-env':
-    specifier: 7.22.20
-    version: 7.22.20(@babel/core@7.23.2)
+    specifier: 7.23.2
+    version: 7.23.2(@babel/core@7.23.2)
   '@babel/preset-react':
     specifier: 7.22.15
     version: 7.22.15(@babel/core@7.23.2)
@@ -1268,8 +1268,8 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
     dev: true
 
-  /@babel/preset-env@7.22.20(@babel/core@7.23.2):
-    resolution: {integrity: sha512-11MY04gGC4kSzlPHRfvVkNAZhUxOvm7DCJ37hPDnUENwe06npjIRAfInEMTGSb4LZK5ZgDFkv5hw0lGebHeTyg==}
+  /@babel/preset-env@7.23.2(@babel/core@7.23.2):
+    resolution: {integrity: sha512-BW3gsuDD+rvHL2VO2SjAUNTBe5YrjsTiDyqamPDWY723na3/yPQ65X5oQkFVJZ0o50/2d+svm1rkPoJeR1KxVQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -3028,7 +3028,7 @@ packages:
   /@types/node-fetch@2.6.3:
     resolution: {integrity: sha512-ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==}
     dependencies:
-      '@types/node': 14.18.33
+      '@types/node': 20.8.9
       form-data: 3.0.1
     dev: true
 
@@ -3348,7 +3348,7 @@ packages:
       '@babel/parser': 7.23.0
       '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.23.2)
-      '@babel/preset-env': 7.22.20(@babel/core@7.23.2)
+      '@babel/preset-env': 7.23.2(@babel/core@7.23.2)
       '@babel/preset-typescript': 7.23.2(@babel/core@7.23.2)
       '@babel/traverse': 7.23.2
       '@babel/types': 7.23.0
@@ -13350,7 +13350,7 @@ packages:
     dependencies:
       '@apideck/better-ajv-errors': 0.3.6(ajv@8.12.0)
       '@babel/core': 7.23.2
-      '@babel/preset-env': 7.22.20(@babel/core@7.23.2)
+      '@babel/preset-env': 7.23.2(@babel/core@7.23.2)
       '@babel/runtime': 7.23.2
       '@rollup/plugin-babel': 5.3.1(@babel/core@7.23.2)(rollup@2.79.1)
       '@rollup/plugin-node-resolve': 11.2.1(rollup@2.79.1)
