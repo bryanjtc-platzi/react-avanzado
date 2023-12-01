@@ -77,8 +77,8 @@ devDependencies:
     specifier: 6.1.1
     version: 6.1.1(eslint@8.54.0)
   firebase-tools:
-    specifier: 12.8.0
-    version: 12.8.0
+    specifier: 12.9.1
+    version: 12.9.1
   json-schema:
     specifier: 0.4.0
     version: 0.4.0
@@ -3069,7 +3069,7 @@ packages:
   /@types/node-fetch@2.6.3:
     resolution: {integrity: sha512-ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==}
     dependencies:
-      '@types/node': 14.18.33
+      '@types/node': 20.10.0
       form-data: 3.0.1
     dev: true
 
@@ -3179,7 +3179,7 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 16.18.65
+      '@types/node': 20.10.0
     dev: true
     optional: true
 
@@ -3713,6 +3713,7 @@ packages:
   /aggregate-error@3.1.0:
     resolution: {integrity: sha512-4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dependencies:
       clean-stack: 2.2.0
       indent-string: 4.0.0
@@ -4617,6 +4618,7 @@ packages:
   /clean-stack@2.2.0:
     resolution: {integrity: sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dev: true
 
   /cli-boxes@2.2.1:
@@ -6833,8 +6835,8 @@ packages:
       path-exists: 5.0.0
     dev: true
 
-  /firebase-tools@12.8.0:
-    resolution: {integrity: sha512-G5n3x2QwF78GCITtfhtHMqhHgi0Wy2ruLG4h481o3jgs7xCCTVF40/E+bNUHUlPC8Cp/0W2hYeeLt5tfVSXmog==}
+  /firebase-tools@12.9.1:
+    resolution: {integrity: sha512-t/oTgGnGm3sLT3wR80B7hY6vdAs6rTlZMsmnZGsP+GeKtVzaB5KHEwLbkZuRXtqij9f35IfkQm2a4TKjKY6xUQ==}
     engines: {node: '>=16.13.0 || >=18.0.0'}
     hasBin: true
     dependencies:
@@ -7902,6 +7904,7 @@ packages:
   /indent-string@4.0.0:
     resolution: {integrity: sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dev: true
 
   /infer-owner@1.0.4:
