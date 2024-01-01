@@ -60,7 +60,7 @@ devDependencies:
     version: 8.10.0(eslint@8.55.0)
   eslint-config-prettier-standard:
     specifier: 4.0.1
-    version: 4.0.1(eslint-config-prettier@8.10.0)(eslint-config-standard@17.1.0)(eslint-plugin-prettier@5.0.1)(prettier-config-standard@5.0.0)
+    version: 4.0.1(eslint-config-prettier@8.10.0)(eslint-config-standard@17.1.0)(eslint-plugin-prettier@5.1.2)(prettier-config-standard@5.0.0)
   eslint-config-standard:
     specifier: 17.1.0
     version: 17.1.0(eslint-plugin-import@2.29.1)(eslint-plugin-n@16.3.1)(eslint-plugin-promise@6.1.1)(eslint@8.55.0)
@@ -71,8 +71,8 @@ devDependencies:
     specifier: 11.1.0
     version: 11.1.0(eslint@8.55.0)
   eslint-plugin-prettier:
-    specifier: 5.0.1
-    version: 5.0.1(eslint-config-prettier@8.10.0)(eslint@8.55.0)(prettier@3.0.3)
+    specifier: 5.1.2
+    version: 5.1.2(eslint-config-prettier@8.10.0)(eslint@8.55.0)(prettier@3.0.3)
   eslint-plugin-promise:
     specifier: 6.1.1
     version: 6.1.1(eslint@8.55.0)
@@ -223,16 +223,6 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/generator@7.23.5:
-    resolution: {integrity: sha512-BPssCHrBD+0YrxviOa3QzpqwhNIXKEtOa2jQrm4FlmkC2apYgRnQcmPWiGZDlGxiNtltnUFolMe8497Esry+jA==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/types': 7.23.5
-      '@jridgewell/gen-mapping': 0.3.3
-      '@jridgewell/trace-mapping': 0.3.20
-      jsesc: 2.5.2
-    dev: true
-
   /@babel/generator@7.23.6:
     resolution: {integrity: sha512-qrSfCYxYQB5owCmGLbl8XRpX1ytXlpueOb0N0UmQwA073KZxejgQTzAmJezxvpwQD9uGtK2shHdi55QT+MbjIw==}
     engines: {node: '>=6.9.0'}
@@ -247,7 +237,7 @@ packages:
     resolution: {integrity: sha512-LvBTxu8bQSQkcyKOU+a1btnNFQ1dMAd0R6PyW3arXes06F6QLWLIrd681bxRPIXlrMGR3XYnW9JyML7dP3qgxg==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.23.5
+      '@babel/types': 7.23.6
     dev: true
 
   /@babel/helper-builder-binary-assignment-operator-visitor@7.22.15:
@@ -344,7 +334,7 @@ packages:
     resolution: {integrity: sha512-0pYVBnDKZO2fnSPCrgM/6WMc7eS20Fbok+0r88fp+YtWVLZrp4CkafFGIp+W0VKw4a22sgebPT99y+FDNMdP4w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.23.5
+      '@babel/types': 7.23.6
     dev: true
 
   /@babel/helper-module-transforms@7.23.3(@babel/core@7.23.7):
@@ -460,14 +450,6 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       chalk: 2.4.2
       js-tokens: 4.0.0
-    dev: true
-
-  /@babel/parser@7.23.5:
-    resolution: {integrity: sha512-hOOqoiNXrmGdFbhgCzu6GiURxUgM27Xwd/aPuu8RfHEZPBzL1Z54okAHAQjXfcQNwvrlkAmAp4SlRTZ45vlthQ==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.23.5
     dev: true
 
   /@babel/parser@7.23.6:
@@ -1455,24 +1437,6 @@ packages:
       '@babel/code-frame': 7.23.5
       '@babel/parser': 7.23.6
       '@babel/types': 7.23.6
-    dev: true
-
-  /@babel/traverse@7.23.5:
-    resolution: {integrity: sha512-czx7Xy5a6sapWWRx61m1Ke1Ra4vczu1mCTtJam5zRTBOonfdJ+S/B6HYmGYu3fJtr8GGET3si6IhgWVBhJ/m8w==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/code-frame': 7.23.5
-      '@babel/generator': 7.23.5
-      '@babel/helper-environment-visitor': 7.22.20
-      '@babel/helper-function-name': 7.23.0
-      '@babel/helper-hoist-variables': 7.22.5
-      '@babel/helper-split-export-declaration': 7.22.6
-      '@babel/parser': 7.23.5
-      '@babel/types': 7.23.5
-      debug: 4.3.4(supports-color@8.1.1)
-      globals: 11.12.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@babel/traverse@7.23.7:
@@ -3420,14 +3384,14 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.23.7
-      '@babel/generator': 7.23.5
-      '@babel/parser': 7.23.5
+      '@babel/generator': 7.23.6
+      '@babel/parser': 7.23.6
       '@babel/plugin-syntax-jsx': 7.23.3(@babel/core@7.23.7)
       '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.23.7)
       '@babel/preset-env': 7.23.7(@babel/core@7.23.7)
       '@babel/preset-typescript': 7.23.3(@babel/core@7.23.7)
-      '@babel/traverse': 7.23.5
-      '@babel/types': 7.23.5
+      '@babel/traverse': 7.23.7
+      '@babel/types': 7.23.6
       '@npmcli/package-json': 2.0.0
       '@remix-run/server-runtime': 1.18.1
       '@vanilla-extract/integration': 6.2.4(@types/node@14.18.33)
@@ -6026,7 +5990,7 @@ packages:
       eslint: 8.55.0
     dev: true
 
-  /eslint-config-prettier-standard@4.0.1(eslint-config-prettier@8.10.0)(eslint-config-standard@17.1.0)(eslint-plugin-prettier@5.0.1)(prettier-config-standard@5.0.0):
+  /eslint-config-prettier-standard@4.0.1(eslint-config-prettier@8.10.0)(eslint-config-standard@17.1.0)(eslint-plugin-prettier@5.1.2)(prettier-config-standard@5.0.0):
     resolution: {integrity: sha512-l5IsZo387QArxPcRl6qcsQnc0hf66rrV5p3RvMDcHL9FGXRJ/s3/ZCES343gMGgyYN+XTJpBnwJHCnZegAMmfw==}
     peerDependencies:
       eslint-config-prettier: '>=5.0.0'
@@ -6036,7 +6000,7 @@ packages:
     dependencies:
       eslint-config-prettier: 8.10.0(eslint@8.55.0)
       eslint-config-standard: 17.1.0(eslint-plugin-import@2.29.1)(eslint-plugin-n@16.3.1)(eslint-plugin-promise@6.1.1)(eslint@8.55.0)
-      eslint-plugin-prettier: 5.0.1(eslint-config-prettier@8.10.0)(eslint@8.55.0)(prettier@3.0.3)
+      eslint-plugin-prettier: 5.1.2(eslint-config-prettier@8.10.0)(eslint@8.55.0)(prettier@3.0.3)
       prettier-config-standard: 5.0.0(prettier@3.0.3)
     dev: true
 
@@ -6246,8 +6210,8 @@ packages:
       semver: 6.3.1
     dev: true
 
-  /eslint-plugin-prettier@5.0.1(eslint-config-prettier@8.10.0)(eslint@8.55.0)(prettier@3.0.3):
-    resolution: {integrity: sha512-m3u5RnR56asrwV/lDC4GHorlW75DsFfmUcjfCYylTUs85dBRnB7VM6xG8eCMJdeDRnppzmxZVf1GEPJvl1JmNg==}
+  /eslint-plugin-prettier@5.1.2(eslint-config-prettier@8.10.0)(eslint@8.55.0)(prettier@3.0.3):
+    resolution: {integrity: sha512-dhlpWc9vOwohcWmClFcA+HjlvUpuyynYs0Rf+L/P6/0iQE6vlHW9l5bkfzN62/Stm9fbq8ku46qzde76T1xlSg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -8564,7 +8528,7 @@ packages:
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
-      '@babel/parser': 7.23.5
+      '@babel/parser': 7.23.6
       '@jsdoc/salty': 0.2.7
       '@types/markdown-it': 12.2.3
       bluebird: 3.7.2
