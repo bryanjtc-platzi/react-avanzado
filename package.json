@@ -39,7 +39,7 @@
     "prettier": "3.0.3",
     "prettier-config-standard": "5.0.0",
     "prop-styles": "2.0.0",
-    "prop-types": "^15.8.1",
+    "prop-types": "15.8.1",
     "standard": "17.1.0",
     "vercel": "31.0.4",
     "webpack": "5.88.2",
