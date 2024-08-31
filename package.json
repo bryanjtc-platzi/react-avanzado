@@ -42,7 +42,7 @@
     "prop-types": "15.8.1",
     "standard": "17.1.0",
     "vercel": "31.4.0",
-    "webpack": "5.90.0",
+    "webpack": "5.94.0",
     "webpack-cli": "5.1.4",
     "webpack-dev-server": "4.15.2",
     "webpack-pwa-manifest": "4.3.0",
