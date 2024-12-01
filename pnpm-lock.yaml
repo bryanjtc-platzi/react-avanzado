@@ -77,8 +77,8 @@ devDependencies:
     specifier: 6.6.0
     version: 6.6.0(eslint@8.57.1)
   firebase-tools:
-    specifier: 13.23.1
-    version: 13.23.1
+    specifier: 13.27.0
+    version: 13.27.0
   json-schema:
     specifier: 0.4.0
     version: 0.4.0
@@ -2412,7 +2412,7 @@ packages:
   /@types/node-fetch@2.6.3:
     resolution: {integrity: sha512-ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==}
     dependencies:
-      '@types/node': 14.18.33
+      '@types/node': 22.9.3
       form-data: 3.0.2
     dev: true
 
@@ -3820,8 +3820,8 @@ packages:
   /commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
 
-  /commander@4.1.1:
-    resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
+  /commander@5.1.0:
+    resolution: {integrity: sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==}
     engines: {node: '>= 6'}
     dev: true
 
@@ -5607,8 +5607,8 @@ packages:
       path-exists: 5.0.0
     dev: true
 
-  /firebase-tools@13.23.1:
-    resolution: {integrity: sha512-nMaI9fsW+Eeavm1qfp3iRUP4BhEJlSTiMiUCCw2Pf0FhooIRjvoWjfTWmt4zsBUDxe3blRfrgHsukE9pYst5rw==}
+  /firebase-tools@13.27.0:
+    resolution: {integrity: sha512-/G6Ga+vEByYV2NnEBwfg2jvh7IgQiwy00fxxkZzXRvMAsx/2CpxoDByYVXsA/Q95k3VuUwi02nrm8qEgJaJrMA==}
     engines: {node: '>=18.0.0 || >=20.0.0'}
     hasBin: true
     dependencies:
@@ -5624,7 +5624,7 @@ packages:
       cjson: 0.3.3
       cli-table: 0.3.11
       colorette: 2.0.20
-      commander: 4.1.1
+      commander: 5.1.0
       configstore: 5.0.1
       cors: 2.8.5
       cross-env: 5.2.1
