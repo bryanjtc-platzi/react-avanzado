@@ -47,8 +47,8 @@ devDependencies:
     specifier: 7.26.0
     version: 7.26.0(@babel/core@7.26.0)
   '@babel/preset-react':
-    specifier: 7.25.9
-    version: 7.25.9(@babel/core@7.26.0)
+    specifier: 7.26.3
+    version: 7.26.3(@babel/core@7.26.0)
   babel-loader:
     specifier: 9.2.1
     version: 9.2.1(@babel/core@7.26.0)(webpack@5.96.1)
@@ -1242,8 +1242,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /@babel/preset-react@7.25.9(@babel/core@7.26.0):
-    resolution: {integrity: sha512-D3to0uSPiWE7rBrdIICCd0tJSIGpLaaGptna2+w7Pft5xMqLpA1sz99DK5TZ1TjGbdQ/VI1eCSZ06dv3lT4JOw==}
+  /@babel/preset-react@7.26.3(@babel/core@7.26.0):
+    resolution: {integrity: sha512-Nl03d6T9ky516DGK2YMxrTqvnpUW63TnJMOMonj+Zae0JiPC5BC9xPMSL6L8fiSpA5vP88qfygavVQvnLp+6Cw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
