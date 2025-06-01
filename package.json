@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/bryan250000/react-avanzado#readme",
   "devDependencies": {
-    "@babel/core": "7.27.1",
-    "@babel/preset-env": "7.27.1",
+    "@babel/core": "7.27.4",
+    "@babel/preset-env": "7.27.2",
     "@babel/preset-react": "7.27.1",
     "babel-loader": "9.2.1",
     "cypress": "12.17.4",
