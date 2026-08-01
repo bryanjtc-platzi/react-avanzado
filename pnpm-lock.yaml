@@ -55,8 +55,8 @@ importers:
         specifier: 10.1.1
         version: 10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(webpack@5.107.2)
       cypress:
-        specifier: 15.18.0
-        version: 15.18.0
+        specifier: 15.19.0
+        version: 15.19.0
       eslint-config-prettier:
         specifier: 10.1.8
         version: 10.1.8(eslint@8.57.1(supports-color@8.1.1))
@@ -3172,8 +3172,8 @@ packages:
   csv-parse@5.6.0:
     resolution: {integrity: sha512-l3nz3euub2QMg5ouu5U09Ew9Wf6/wQ8I++ch1loQ0ljmzhmfZYrH9fflS22i/PQEvsPvxCwxgz5q7UB8K1JO4Q==}
 
-  cypress@15.18.0:
-    resolution: {integrity: sha512-aLfOYSLlVt1b6QSoVUjbCY27taZlYAT8ST47xQbwd9pvQrY/g5gXi12yItZTB+kxkkj+ZcvUYmRLUC95SlCJsw==}
+  cypress@15.19.0:
+    resolution: {integrity: sha512-kjy1u3SWlMRWS5qffH3U+bXx1PqPP7qwhIzEY3UtERcW2r/8zy5uk6uSwa75pYXJyYFVP1SO8mAn/avZUvUbfg==}
     engines: {node: ^20.1.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
 
@@ -10599,7 +10599,7 @@ snapshots:
 
   csv-parse@5.6.0: {}
 
-  cypress@15.18.0:
+  cypress@15.19.0:
     dependencies:
       '@cypress/request': 4.0.1
       '@cypress/xvfb': 1.2.4(supports-color@8.1.1)
