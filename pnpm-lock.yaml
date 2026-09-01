@@ -62,16 +62,16 @@ importers:
         version: 10.1.8(eslint@8.57.1(supports-color@8.1.1))
       eslint-config-prettier-standard:
         specifier: 4.0.1
-        version: 4.0.1(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@8.1.1)))(eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1))(eslint-plugin-n@18.1.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3))(eslint-plugin-promise@7.3.0(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1)))(eslint-plugin-prettier@5.5.6(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1))(prettier@3.8.3))(prettier-config-standard@7.0.0(prettier@3.8.3))
+        version: 4.0.1(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@8.1.1)))(eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1))(eslint-plugin-n@18.3.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3))(eslint-plugin-promise@7.3.0(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1)))(eslint-plugin-prettier@5.5.6(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1))(prettier@3.8.3))(prettier-config-standard@7.0.0(prettier@3.8.3))
       eslint-config-standard:
         specifier: 17.1.0
-        version: 17.1.0(eslint-plugin-import@2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1))(eslint-plugin-n@18.1.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3))(eslint-plugin-promise@7.3.0(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1))
+        version: 17.1.0(eslint-plugin-import@2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1))(eslint-plugin-n@18.3.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3))(eslint-plugin-promise@7.3.0(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1))
       eslint-plugin-import:
         specifier: 2.32.0
         version: 2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1)
       eslint-plugin-n:
-        specifier: 18.1.0
-        version: 18.1.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3)
+        specifier: 18.3.0
+        version: 18.3.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3)
       eslint-plugin-prettier:
         specifier: 5.5.6
         version: 5.5.6(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1))(prettier@3.8.3)
@@ -3626,8 +3626,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-n@18.1.0:
-    resolution: {integrity: sha512-hkUm9EtnFV2h2fE16jNVUfCVUqvPzI7fGLsFdun5lFt/pbmf2kCgDx6ymi9rx+NCUSggBmurJCZOfG20JBs/kg==}
+  eslint-plugin-n@18.3.0:
+    resolution: {integrity: sha512-cPVguuDe6DrIPb/qUXHf8P89MaVTUmiYWwpt5gX5AILsvRIiZAxMFXcFR6QHYBksqKJpjfUBlL/RleCJUWcD7w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: '>=8.57.1'
@@ -11098,10 +11098,10 @@ snapshots:
       eslint: 8.57.1(supports-color@8.1.1)
       semver: 7.8.5
 
-  eslint-config-prettier-standard@4.0.1(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@8.1.1)))(eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1))(eslint-plugin-n@18.1.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3))(eslint-plugin-promise@7.3.0(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1)))(eslint-plugin-prettier@5.5.6(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1))(prettier@3.8.3))(prettier-config-standard@7.0.0(prettier@3.8.3)):
+  eslint-config-prettier-standard@4.0.1(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@8.1.1)))(eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1))(eslint-plugin-n@18.3.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3))(eslint-plugin-promise@7.3.0(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1)))(eslint-plugin-prettier@5.5.6(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1))(prettier@3.8.3))(prettier-config-standard@7.0.0(prettier@3.8.3)):
     dependencies:
       eslint-config-prettier: 10.1.8(eslint@8.57.1(supports-color@8.1.1))
-      eslint-config-standard: 17.1.0(eslint-plugin-import@2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1))(eslint-plugin-n@18.1.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3))(eslint-plugin-promise@7.3.0(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1))
+      eslint-config-standard: 17.1.0(eslint-plugin-import@2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1))(eslint-plugin-n@18.3.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3))(eslint-plugin-promise@7.3.0(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1))
       eslint-plugin-prettier: 5.5.6(eslint-config-prettier@10.1.8(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1))(prettier@3.8.3)
       prettier-config-standard: 7.0.0(prettier@3.8.3)
 
@@ -11121,11 +11121,11 @@ snapshots:
       eslint-plugin-n: 15.7.0(eslint@8.57.1(supports-color@8.1.1))
       eslint-plugin-promise: 6.6.0(eslint@8.57.1(supports-color@8.1.1))
 
-  eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1))(eslint-plugin-n@18.1.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3))(eslint-plugin-promise@7.3.0(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1)):
+  eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1))(eslint-plugin-n@18.3.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3))(eslint-plugin-promise@7.3.0(eslint@8.57.1(supports-color@8.1.1)))(eslint@8.57.1(supports-color@8.1.1)):
     dependencies:
       eslint: 8.57.1(supports-color@8.1.1)
       eslint-plugin-import: 2.32.0(eslint@8.57.1(supports-color@8.1.1))(supports-color@8.1.1)
-      eslint-plugin-n: 18.1.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3)
+      eslint-plugin-n: 18.3.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3)
       eslint-plugin-promise: 7.3.0(eslint@8.57.1(supports-color@8.1.1))
 
   eslint-import-resolver-node@0.3.10(supports-color@8.1.1):
@@ -11197,7 +11197,7 @@ snapshots:
       resolve: 1.22.12
       semver: 7.8.5
 
-  eslint-plugin-n@18.1.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3):
+  eslint-plugin-n@18.3.0(eslint@8.57.1(supports-color@8.1.1))(typescript@5.9.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.10.1(eslint@8.57.1(supports-color@8.1.1))
       enhanced-resolve: 5.24.5
